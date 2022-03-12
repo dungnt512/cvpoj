@@ -1,0 +1,258 @@
+INFO 2022-03-10 13:22:41,804 daemon Exiting due to SIGINT
+INFO 2022-03-10 13:35:21,696 daemon Exiting due to SIGINT
+INFO 2022-03-10 14:18:39,938 daemon Exiting due to SIGINT
+INFO 2022-03-10 14:31:01,603 daemon Exiting due to SIGINT
+INFO 2022-03-10 15:49:18,051 daemon Exiting due to SIGINT
+INFO 2022-03-10 16:11:09,619 daemon Exiting due to SIGINT
+INFO 2022-03-10 16:15:20,852 daemon Exiting due to SIGINT
+INFO 2022-03-10 16:24:30,310 daemon Exiting due to SIGINT
+INFO 2022-03-10 16:37:52,851 daemon Exiting due to SIGINT
+INFO 2022-03-10 16:57:23,489 daemon Exiting due to SIGINT
+INFO 2022-03-10 17:33:52,630 daemon Exiting due to SIGINT
+INFO 2022-03-11 02:15:44,689 daemon Exiting due to SIGINT
+INFO 2022-03-11 02:27:48,222 daemon Exiting due to SIGINT
+INFO 2022-03-11 02:30:30,516 daemon Exiting due to SIGINT
+INFO 2022-03-11 03:51:36,932 daemon Exiting due to SIGINT
+INFO 2022-03-11 03:52:52,753 daemon Exiting due to SIGINT
+INFO 2022-03-11 03:54:34,925 daemon Exiting due to SIGINT
+INFO 2022-03-11 04:02:26,961 daemon Exiting due to SIGINT
+INFO 2022-03-11 04:08:04,451 daemon Exiting due to SIGINT
+INFO 2022-03-11 04:08:27,437 daemon Exiting due to SIGINT
+INFO 2022-03-11 04:12:10,670 daemon Exiting due to SIGINT
+INFO 2022-03-11 04:13:33,802 daemon Exiting due to SIGINT
+INFO 2022-03-11 05:17:21,358 daemon Exiting due to SIGINT
+INFO 2022-03-11 05:50:49,421 daemon Exiting due to SIGINT
+INFO 2022-03-11 07:06:27,859 daemon Exiting due to SIGINT
+INFO 2022-03-11 07:17:44,423 daemon Exiting due to SIGINT
+INFO 2022-03-11 07:17:55,538 judge_handler Judge connected from: ('172.17.0.2', 56950)
+WARNING 2022-03-11 07:17:55,542 judge_handler Authentication failure: ('172.17.0.2', 56950)
+INFO 2022-03-11 07:17:55,542 judge_handler Judge disconnected from: ('172.17.0.2', 56950) with name None
+INFO 2022-03-11 07:18:01,549 judge_handler Judge connected from: ('172.17.0.2', 56954)
+WARNING 2022-03-11 07:18:01,650 judge_handler Authentication failure: ('172.17.0.2', 56954)
+INFO 2022-03-11 07:18:01,651 judge_handler Judge disconnected from: ('172.17.0.2', 56954) with name None
+INFO 2022-03-11 07:18:10,662 judge_handler Judge connected from: ('172.17.0.2', 56956)
+WARNING 2022-03-11 07:18:10,667 judge_handler Authentication failure: ('172.17.0.2', 56956)
+INFO 2022-03-11 07:18:10,668 judge_handler Judge disconnected from: ('172.17.0.2', 56956) with name None
+INFO 2022-03-11 07:18:24,181 judge_handler Judge connected from: ('172.17.0.2', 56958)
+WARNING 2022-03-11 07:18:24,185 judge_handler Authentication failure: ('172.17.0.2', 56958)
+INFO 2022-03-11 07:18:24,185 judge_handler Judge disconnected from: ('172.17.0.2', 56958) with name None
+INFO 2022-03-11 07:18:44,554 judge_handler Judge connected from: ('172.17.0.2', 56960)
+WARNING 2022-03-11 07:18:44,559 judge_handler Authentication failure: ('172.17.0.2', 56960)
+INFO 2022-03-11 07:18:44,560 judge_handler Judge disconnected from: ('172.17.0.2', 56960) with name None
+INFO 2022-03-11 07:19:14,965 judge_handler Judge connected from: ('172.17.0.2', 56962)
+WARNING 2022-03-11 07:19:14,971 judge_handler Authentication failure: ('172.17.0.2', 56962)
+INFO 2022-03-11 07:19:14,971 judge_handler Judge disconnected from: ('172.17.0.2', 56962) with name None
+INFO 2022-03-11 07:19:42,997 judge_handler Judge connected from: ('172.17.0.2', 56964)
+WARNING 2022-03-11 07:19:43,611 judge_handler Authentication failure: ('172.17.0.2', 56964)
+INFO 2022-03-11 07:19:43,612 judge_handler Judge disconnected from: ('172.17.0.2', 56964) with name None
+INFO 2022-03-11 07:19:47,619 judge_handler Judge connected from: ('172.17.0.2', 56966)
+WARNING 2022-03-11 07:19:47,624 judge_handler Authentication failure: ('172.17.0.2', 56966)
+INFO 2022-03-11 07:19:47,624 judge_handler Judge disconnected from: ('172.17.0.2', 56966) with name None
+INFO 2022-03-11 07:19:53,633 judge_handler Judge connected from: ('172.17.0.2', 56968)
+WARNING 2022-03-11 07:19:53,638 judge_handler Authentication failure: ('172.17.0.2', 56968)
+INFO 2022-03-11 07:19:53,639 judge_handler Judge disconnected from: ('172.17.0.2', 56968) with name None
+INFO 2022-03-11 07:20:00,584 judge_handler Judge connected from: ('172.17.0.2', 56970)
+WARNING 2022-03-11 07:20:00,590 judge_handler Authentication failure: ('172.17.0.2', 56970)
+INFO 2022-03-11 07:20:00,590 judge_handler Judge disconnected from: ('172.17.0.2', 56970) with name None
+INFO 2022-03-11 07:21:00,653 judge_handler Judge connected from: ('172.17.0.2', 56972)
+WARNING 2022-03-11 07:21:00,657 judge_handler Authentication failure: ('172.17.0.2', 56972)
+INFO 2022-03-11 07:21:00,658 judge_handler Judge disconnected from: ('172.17.0.2', 56972) with name None
+INFO 2022-03-11 07:22:00,719 judge_handler Judge connected from: ('172.17.0.2', 56974)
+WARNING 2022-03-11 07:22:00,723 judge_handler Authentication failure: ('172.17.0.2', 56974)
+INFO 2022-03-11 07:22:00,724 judge_handler Judge disconnected from: ('172.17.0.2', 56974) with name None
+INFO 2022-03-11 07:23:00,752 judge_handler Judge connected from: ('172.17.0.2', 56976)
+WARNING 2022-03-11 07:23:00,756 judge_handler Authentication failure: ('172.17.0.2', 56976)
+INFO 2022-03-11 07:23:00,758 judge_handler Judge disconnected from: ('172.17.0.2', 56976) with name None
+INFO 2022-03-11 07:24:00,805 judge_handler Judge connected from: ('172.17.0.2', 56978)
+WARNING 2022-03-11 07:24:00,819 judge_handler Authentication failure: ('172.17.0.2', 56978)
+INFO 2022-03-11 07:24:00,819 judge_handler Judge disconnected from: ('172.17.0.2', 56978) with name None
+INFO 2022-03-11 07:25:00,881 judge_handler Judge connected from: ('172.17.0.2', 56980)
+WARNING 2022-03-11 07:25:00,886 judge_handler Authentication failure: ('172.17.0.2', 56980)
+INFO 2022-03-11 07:25:00,888 judge_handler Judge disconnected from: ('172.17.0.2', 56980) with name None
+INFO 2022-03-11 07:28:55,640 judge_handler Judge connected from: ('172.17.0.2', 56982)
+WARNING 2022-03-11 07:28:56,125 judge_handler Authentication failure: ('172.17.0.2', 56982)
+INFO 2022-03-11 07:28:56,126 judge_handler Judge disconnected from: ('172.17.0.2', 56982) with name None
+INFO 2022-03-11 07:29:00,132 judge_handler Judge connected from: ('172.17.0.2', 56986)
+WARNING 2022-03-11 07:29:00,141 judge_handler Authentication failure: ('172.17.0.2', 56986)
+INFO 2022-03-11 07:29:00,141 judge_handler Judge disconnected from: ('172.17.0.2', 56986) with name None
+INFO 2022-03-11 07:29:05,291 daemon Exiting due to SIGINT
+INFO 2022-03-11 07:30:19,360 judge_handler Judge connected from: ('172.17.0.2', 53240)
+WARNING 2022-03-11 07:30:19,484 judge_handler Authentication failure: ('172.17.0.2', 53240)
+INFO 2022-03-11 07:30:19,485 judge_handler Judge disconnected from: ('172.17.0.2', 53240) with name None
+INFO 2022-03-11 07:30:23,491 judge_handler Judge connected from: ('172.17.0.2', 53242)
+WARNING 2022-03-11 07:30:23,495 judge_handler Authentication failure: ('172.17.0.2', 53242)
+INFO 2022-03-11 07:30:23,496 judge_handler Judge disconnected from: ('172.17.0.2', 53242) with name None
+INFO 2022-03-11 07:33:39,819 daemon Exiting due to SIGINT
+INFO 2022-03-11 07:35:25,433 daemon Exiting due to SIGINT
+INFO 2022-03-11 07:40:45,379 daemon Exiting due to SIGINT
+INFO 2022-03-11 07:43:08,865 judge_handler Judge connected from: ('172.17.0.2', 57010)
+WARNING 2022-03-11 07:43:09,010 judge_handler Authentication failure: ('172.17.0.2', 57010)
+INFO 2022-03-11 07:43:09,010 judge_handler Judge disconnected from: ('172.17.0.2', 57010) with name None
+INFO 2022-03-11 07:43:13,094 judge_handler Judge connected from: ('172.17.0.2', 57012)
+WARNING 2022-03-11 07:43:13,101 judge_handler Authentication failure: ('172.17.0.2', 57012)
+INFO 2022-03-11 07:43:13,101 judge_handler Judge disconnected from: ('172.17.0.2', 57012) with name None
+INFO 2022-03-11 07:43:19,110 judge_handler Judge connected from: ('172.17.0.2', 57014)
+WARNING 2022-03-11 07:43:19,116 judge_handler Authentication failure: ('172.17.0.2', 57014)
+INFO 2022-03-11 07:43:19,117 judge_handler Judge disconnected from: ('172.17.0.2', 57014) with name None
+INFO 2022-03-11 07:43:28,130 judge_handler Judge connected from: ('172.17.0.2', 57016)
+WARNING 2022-03-11 07:43:28,135 judge_handler Authentication failure: ('172.17.0.2', 57016)
+INFO 2022-03-11 07:43:28,137 judge_handler Judge disconnected from: ('172.17.0.2', 57016) with name None
+INFO 2022-03-11 07:43:41,649 judge_handler Judge connected from: ('172.17.0.2', 57018)
+WARNING 2022-03-11 07:43:41,655 judge_handler Authentication failure: ('172.17.0.2', 57018)
+INFO 2022-03-11 07:43:41,656 judge_handler Judge disconnected from: ('172.17.0.2', 57018) with name None
+INFO 2022-03-11 07:44:01,929 judge_handler Judge connected from: ('172.17.0.2', 57020)
+WARNING 2022-03-11 07:44:02,022 judge_handler Authentication failure: ('172.17.0.2', 57020)
+INFO 2022-03-11 07:44:02,023 judge_handler Judge disconnected from: ('172.17.0.2', 57020) with name None
+INFO 2022-03-11 07:44:32,451 judge_handler Judge connected from: ('172.17.0.2', 57022)
+WARNING 2022-03-11 07:44:32,459 judge_handler Authentication failure: ('172.17.0.2', 57022)
+INFO 2022-03-11 07:44:32,460 judge_handler Judge disconnected from: ('172.17.0.2', 57022) with name None
+INFO 2022-03-11 07:45:15,627 judge_handler Judge connected from: ('172.17.0.2', 57024)
+WARNING 2022-03-11 07:45:15,644 judge_handler Authentication failure: ('172.17.0.2', 57024)
+INFO 2022-03-11 07:45:15,644 judge_handler Judge disconnected from: ('172.17.0.2', 57024) with name None
+INFO 2022-03-11 07:45:18,072 judge_handler Judge connected from: ('172.17.0.2', 57026)
+WARNING 2022-03-11 07:45:18,075 judge_handler Authentication failure: ('172.17.0.2', 57026)
+INFO 2022-03-11 07:45:18,076 judge_handler Judge disconnected from: ('172.17.0.2', 57026) with name None
+INFO 2022-03-11 07:45:19,650 judge_handler Judge connected from: ('172.17.0.2', 57028)
+WARNING 2022-03-11 07:45:19,655 judge_handler Authentication failure: ('172.17.0.2', 57028)
+INFO 2022-03-11 07:45:19,656 judge_handler Judge disconnected from: ('172.17.0.2', 57028) with name None
+INFO 2022-03-11 08:01:18,019 daemon Exiting due to SIGINT
+INFO 2022-03-11 08:01:35,015 judge_handler Judge connected from: ('127.0.0.1', 43346)
+INFO 2022-03-11 08:01:35,019 judge_handler Judge authenticated: ('127.0.0.1', 43346) (oi_judge00)
+INFO 2022-03-11 08:02:23,593 judge_handler Judge disconnected from: ('127.0.0.1', 43346) with name oi_judge00
+INFO 2022-03-11 08:10:00,277 daemon Exiting due to SIGINT
+INFO 2022-03-11 08:11:32,268 judge_handler Judge connected from: ('172.17.0.2', 57030)
+INFO 2022-03-11 08:11:32,356 judge_handler Judge authenticated: ('172.17.0.2', 57030) (oi_judge00)
+INFO 2022-03-11 08:24:18,240 daemon Exiting due to SIGINT
+INFO 2022-03-11 08:24:48,310 judge_handler Judge connected from: ('172.17.0.2', 57036)
+INFO 2022-03-11 08:24:48,339 judge_handler Judge authenticated: ('172.17.0.2', 57036) (oi_judge00)
+INFO 2022-03-11 09:15:05,133 daemon Exiting due to SIGINT
+INFO 2022-03-11 09:20:24,121 judge_handler Judge connected from: ('172.17.0.2', 35884)
+INFO 2022-03-11 09:20:24,306 judge_handler Judge authenticated: ('172.17.0.2', 35884) (oi_judge00)
+INFO 2022-03-11 10:20:09,208 daemon Exiting due to SIGINT
+INFO 2022-03-11 10:20:30,061 judge_handler Judge connected from: ('172.17.0.2', 35892)
+INFO 2022-03-11 10:20:30,085 judge_handler Judge authenticated: ('172.17.0.2', 35892) (oi_judge00)
+INFO 2022-03-11 10:22:15,998 judge_handler Judge disconnected from: ('172.17.0.2', 35892) with name oi_judge00
+INFO 2022-03-11 10:22:49,161 judge_handler Judge connected from: ('172.17.0.2', 35894)
+INFO 2022-03-11 10:22:49,391 judge_handler Judge authenticated: ('172.17.0.2', 35894) (oi_judge00)
+INFO 2022-03-11 10:23:51,074 judge_handler oi_judge00: Updated problem list
+INFO 2022-03-11 10:24:39,361 judge_handler oi_judge00: Updated problem list
+INFO 2022-03-11 10:25:31,262 judge_handler Judge connected from: ('172.17.0.2', 35896)
+INFO 2022-03-11 10:25:31,277 judge_handler Judge authenticated: ('172.17.0.2', 35896) (oi_judge00)
+INFO 2022-03-11 10:25:31,310 judge_handler Judge disconnected from: ('172.17.0.2', 35896) with name oi_judge00
+INFO 2022-03-11 10:26:17,750 judge_handler oi_judge00: Updated problem list
+INFO 2022-03-11 10:26:22,131 judge_handler oi_judge00: Updated problem list
+INFO 2022-03-11 10:46:00,362 judge_handler Judge disconnected from: ('172.17.0.2', 35894) with name oi_judge00
+INFO 2022-03-11 10:46:42,198 judge_handler Judge connected from: ('172.17.0.2', 35898)
+INFO 2022-03-11 10:46:42,202 judge_handler Judge authenticated: ('172.17.0.2', 35898) (oi_judge00)
+INFO 2022-03-11 10:47:39,393 judge_list Free judges: 1
+INFO 2022-03-11 10:47:39,394 judge_list Dispatched submission 1 to: oi_judge00
+INFO 2022-03-11 10:47:39,406 judge_handler Submission acknowledged: 1
+INFO 2022-03-11 10:47:42,515 judge_handler oi_judge00: Submission generated compiler messages: 1
+INFO 2022-03-11 10:47:42,518 judge_handler oi_judge00: Grading has begun on: 1
+INFO 2022-03-11 10:47:42,550 judge_handler oi_judge00: 1 test case(s) completed on: 1
+INFO 2022-03-11 10:47:42,559 judge_handler oi_judge00: Grading has ended on: 1
+INFO 2022-03-11 10:47:42,560 judge_list Judge available after grading 1: oi_judge00
+INFO 2022-03-11 10:48:00,842 judge_list Free judges: 1
+INFO 2022-03-11 10:48:00,842 judge_list Dispatched submission 1 to: oi_judge00
+INFO 2022-03-11 10:48:00,850 judge_handler Submission acknowledged: 1
+INFO 2022-03-11 10:48:03,172 judge_handler oi_judge00: Submission generated compiler messages: 1
+INFO 2022-03-11 10:48:03,176 judge_handler oi_judge00: Grading has begun on: 1
+INFO 2022-03-11 10:48:03,216 judge_handler oi_judge00: 1 test case(s) completed on: 1
+INFO 2022-03-11 10:48:03,281 judge_handler oi_judge00: Grading has ended on: 1
+INFO 2022-03-11 10:48:03,281 judge_list Judge available after grading 1: oi_judge00
+INFO 2022-03-11 10:48:11,833 judge_list Free judges: 1
+INFO 2022-03-11 10:48:11,833 judge_list Dispatched submission 1 to: oi_judge00
+INFO 2022-03-11 10:48:11,840 judge_handler Submission acknowledged: 1
+INFO 2022-03-11 10:48:14,166 judge_handler oi_judge00: Submission generated compiler messages: 1
+INFO 2022-03-11 10:48:14,169 judge_handler oi_judge00: Grading has begun on: 1
+INFO 2022-03-11 10:48:14,182 judge_handler oi_judge00: 1 test case(s) completed on: 1
+INFO 2022-03-11 10:48:14,189 judge_handler oi_judge00: Grading has ended on: 1
+INFO 2022-03-11 10:48:14,190 judge_list Judge available after grading 1: oi_judge00
+INFO 2022-03-11 10:58:41,766 daemon Exiting due to SIGINT
+INFO 2022-03-11 10:59:11,792 judge_handler Judge connected from: ('172.17.0.2', 35904)
+INFO 2022-03-11 10:59:11,797 judge_handler Judge authenticated: ('172.17.0.2', 35904) (oi_judge00)
+INFO 2022-03-11 10:59:15,749 judge_list Free judges: 1
+INFO 2022-03-11 10:59:15,750 judge_list Dispatched submission 1 to: oi_judge00
+INFO 2022-03-11 10:59:15,761 judge_handler Submission acknowledged: 1
+INFO 2022-03-11 10:59:20,613 judge_handler oi_judge00: Submission generated compiler messages: 1
+INFO 2022-03-11 10:59:20,618 judge_handler oi_judge00: Grading has begun on: 1
+INFO 2022-03-11 10:59:20,659 judge_handler oi_judge00: 1 test case(s) completed on: 1
+INFO 2022-03-11 10:59:20,668 judge_handler oi_judge00: Grading has ended on: 1
+INFO 2022-03-11 10:59:20,669 judge_list Judge available after grading 1: oi_judge00
+INFO 2022-03-11 10:59:59,440 judge_list Free judges: 1
+INFO 2022-03-11 10:59:59,441 judge_list Dispatched submission 1 to: oi_judge00
+INFO 2022-03-11 10:59:59,449 judge_handler Submission acknowledged: 1
+INFO 2022-03-11 11:00:01,930 judge_handler oi_judge00: Submission generated compiler messages: 1
+INFO 2022-03-11 11:00:01,934 judge_handler oi_judge00: Grading has begun on: 1
+INFO 2022-03-11 11:00:01,951 judge_handler oi_judge00: 1 test case(s) completed on: 1
+INFO 2022-03-11 11:00:01,963 judge_handler oi_judge00: Grading has ended on: 1
+INFO 2022-03-11 11:00:01,963 judge_list Judge available after grading 1: oi_judge00
+INFO 2022-03-11 11:00:07,461 judge_list Free judges: 1
+INFO 2022-03-11 11:00:07,462 judge_list Dispatched submission 1 to: oi_judge00
+INFO 2022-03-11 11:00:07,470 judge_handler Submission acknowledged: 1
+INFO 2022-03-11 11:00:09,870 judge_handler oi_judge00: Submission generated compiler messages: 1
+INFO 2022-03-11 11:00:09,874 judge_handler oi_judge00: Grading has begun on: 1
+INFO 2022-03-11 11:00:09,890 judge_handler oi_judge00: 1 test case(s) completed on: 1
+INFO 2022-03-11 11:00:09,900 judge_handler oi_judge00: Grading has ended on: 1
+INFO 2022-03-11 11:00:09,900 judge_list Judge available after grading 1: oi_judge00
+INFO 2022-03-11 11:06:49,190 judge_list Free judges: 1
+INFO 2022-03-11 11:06:49,191 judge_list Dispatched submission 2 to: oi_judge00
+INFO 2022-03-11 11:06:49,202 judge_handler Submission acknowledged: 2
+INFO 2022-03-11 11:06:52,255 judge_handler oi_judge00: Submission generated compiler messages: 2
+INFO 2022-03-11 11:06:52,259 judge_handler oi_judge00: Grading has begun on: 2
+INFO 2022-03-11 11:06:52,273 judge_handler oi_judge00: 1 test case(s) completed on: 2
+INFO 2022-03-11 11:06:52,281 judge_handler oi_judge00: Grading has ended on: 2
+INFO 2022-03-11 11:06:52,282 judge_list Judge available after grading 2: oi_judge00
+INFO 2022-03-11 11:08:42,386 judge_list Free judges: 1
+INFO 2022-03-11 11:08:42,387 judge_list Dispatched submission 3 to: oi_judge00
+INFO 2022-03-11 11:08:42,395 judge_handler Submission acknowledged: 3
+INFO 2022-03-11 11:08:44,808 judge_handler oi_judge00: Submission generated compiler messages: 3
+INFO 2022-03-11 11:08:44,812 judge_handler oi_judge00: Grading has begun on: 3
+INFO 2022-03-11 11:08:44,830 judge_handler oi_judge00: 1 test case(s) completed on: 3
+INFO 2022-03-11 11:08:44,838 judge_handler oi_judge00: Grading has ended on: 3
+INFO 2022-03-11 11:08:44,838 judge_list Judge available after grading 3: oi_judge00
+INFO 2022-03-11 11:09:02,763 daemon Exiting due to SIGINT
+INFO 2022-03-11 11:09:23,660 judge_handler Judge connected from: ('172.17.0.2', 35908)
+INFO 2022-03-11 11:09:23,665 judge_handler Judge authenticated: ('172.17.0.2', 35908) (oi_judge00)
+INFO 2022-03-11 11:14:19,469 daemon Exiting due to SIGINT
+INFO 2022-03-11 11:14:39,365 judge_handler Judge connected from: ('172.17.0.2', 35910)
+INFO 2022-03-11 11:14:39,369 judge_handler Judge authenticated: ('172.17.0.2', 35910) (oi_judge00)
+INFO 2022-03-11 11:15:07,318 judge_list Free judges: 1
+INFO 2022-03-11 11:15:07,318 judge_list Dispatched submission 3 to: oi_judge00
+INFO 2022-03-11 11:15:07,329 judge_handler Submission acknowledged: 3
+INFO 2022-03-11 11:15:11,157 judge_handler oi_judge00: Submission generated compiler messages: 3
+INFO 2022-03-11 11:15:11,161 judge_handler oi_judge00: Grading has begun on: 3
+INFO 2022-03-11 11:15:11,281 judge_handler oi_judge00: 1 test case(s) completed on: 3
+INFO 2022-03-11 11:15:11,291 judge_handler oi_judge00: Grading has ended on: 3
+INFO 2022-03-11 11:15:11,291 judge_list Judge available after grading 3: oi_judge00
+INFO 2022-03-11 11:17:06,304 daemon Exiting due to SIGINT
+INFO 2022-03-11 11:17:27,216 judge_handler Judge connected from: ('172.17.0.2', 35914)
+INFO 2022-03-11 11:17:27,220 judge_handler Judge authenticated: ('172.17.0.2', 35914) (oi_judge00)
+INFO 2022-03-11 11:18:34,654 daemon Exiting due to SIGINT
+INFO 2022-03-11 11:18:54,288 judge_handler Judge connected from: ('172.17.0.2', 35916)
+INFO 2022-03-11 11:18:54,292 judge_handler Judge authenticated: ('172.17.0.2', 35916) (oi_judge00)
+INFO 2022-03-11 11:22:59,424 daemon Exiting due to SIGINT
+INFO 2022-03-11 11:23:22,806 judge_list Free judges: 0
+INFO 2022-03-11 11:23:22,806 judge_list Queued submission: 3
+INFO 2022-03-11 11:23:23,864 judge_handler Judge connected from: ('172.17.0.2', 35918)
+INFO 2022-03-11 11:23:23,869 judge_handler Judge authenticated: ('172.17.0.2', 35918) (oi_judge00)
+INFO 2022-03-11 11:23:23,879 judge_list Dispatched queued submission 3: oi_judge00
+INFO 2022-03-11 11:23:23,907 judge_handler Submission acknowledged: 3
+INFO 2022-03-11 11:23:26,133 judge_handler oi_judge00: Submission generated compiler messages: 3
+INFO 2022-03-11 11:23:26,137 judge_handler oi_judge00: Grading has begun on: 3
+INFO 2022-03-11 11:23:26,151 judge_handler oi_judge00: 1 test case(s) completed on: 3
+INFO 2022-03-11 11:23:26,160 judge_handler oi_judge00: Grading has ended on: 3
+INFO 2022-03-11 11:23:26,161 judge_list Judge available after grading 3: oi_judge00
+INFO 2022-03-11 11:52:11,610 daemon Exiting due to SIGINT
+INFO 2022-03-11 11:52:32,535 judge_handler Judge connected from: ('172.17.0.2', 35924)
+INFO 2022-03-11 11:52:32,540 judge_handler Judge authenticated: ('172.17.0.2', 35924) (oi_judge00)
+INFO 2022-03-11 12:52:31,599 judge_handler oi_judge00: Updated problem list
+INFO 2022-03-11 12:52:31,654 judge_handler oi_judge00: Updated problem list
+INFO 2022-03-11 13:37:23,736 judge_list Free judges: 1
+INFO 2022-03-11 13:37:23,736 judge_list Dispatched submission 2 to: oi_judge00
+INFO 2022-03-11 13:37:23,754 judge_handler Submission acknowledged: 2
+INFO 2022-03-11 13:37:29,558 judge_handler oi_judge00: Submission generated compiler messages: 2
+INFO 2022-03-11 13:37:29,562 judge_handler oi_judge00: Grading has begun on: 2
+INFO 2022-03-11 13:37:29,681 judge_handler oi_judge00: 1 test case(s) completed on: 2
+INFO 2022-03-11 13:37:29,692 judge_handler oi_judge00: Grading has ended on: 2
+INFO 2022-03-11 13:37:29,693 judge_list Judge available after grading 2: oi_judge00

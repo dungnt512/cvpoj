@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '5*9f5q57mqmlz2#f$x1h76&jxy#yortjl1v+l*6hd18$d*yx#0'
+SECRET_KEY = 'x3n*_%+ev!q$(t(h_xqq2d%i9inos_!ev2$*+yf(9c6*$07=s9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -189,7 +189,7 @@ DMOJ_SUBMISSIONS_REJUDGE_LIMIT = 10
 # Maximum number of submissions a single user can queue without the `spam_submission` permission
 DMOJ_SUBMISSION_LIMIT = 2
 # Whether to allow users to view source code: 'all' | 'all-solved' | 'only-own'
-DMOJ_SUBMISSION_SOURCE_VISIBILITY = 'all-solved'
+DMOJ_SUBMISSION_SOURCE_VISIBILITY = 'only-own'
 DMOJ_BLOG_NEW_PROBLEM_COUNT = 7
 DMOJ_BLOG_RECENTLY_ATTEMPTED_PROBLEMS_COUNT = 7
 DMOJ_TOTP_TOLERANCE_HALF_MINUTES = 1
@@ -696,7 +696,7 @@ SOCIAL_AUTH_SLUGIFY_FUNCTION = 'judge.social_auth.slugify_username'
 
 JUDGE_AMQP_PATH = None
 
-MOSS_API_KEY = None
+MOSS_API_KEY = 544600187
 
 CELERY_WORKER_HIJACK_ROOT_LOGGER = False
 

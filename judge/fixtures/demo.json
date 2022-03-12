@@ -37,7 +37,7 @@
             "is_superuser": true,
             "last_login": "2017-12-02T08:34:31.840Z",
             "last_name": "",
-            "password": "pbkdf2_sha256$36000$eFRRZq4DgktS$md1gk0bBJb7PH/+3YEXkcCW8K+KmiI+y/amqR32G2DY=",
+            "password": "admin",
             "user_permissions": [
 
             ],
@@ -55,9 +55,9 @@
             ],
             "creation_date": "2017-12-02T08:50:25.199Z",
             "is_open": true,
-            "slug": "vnoj",
-            "name": "VNOJ: Viet Nam Online Judge",
-            "short_name": "VNOJ",
+            "slug": "cvpoj",
+            "name": "CVPOJ: Chuyen Vinh Phuc Online Judge",
+            "short_name": "CVPOJ",
             "slots": null
         },
         "model": "judge.organization",
@@ -134,7 +134,7 @@
         "pk": 1,
         "fields": {
             "title": "Ch\u00e0o m\u1eebng b\u1ea1n \u0111\u1ebfn v\u1edbi VNOJ",
-            "slug": "welcome-to-vnoj",
+            "slug": "welcome-to-cvpoj",
             "visible": true,
             "global_post": true,
             "sticky": true,
@@ -166,8 +166,8 @@
     },
     {
         "fields": {
-            "domain": "localhost:8081",
-            "name": "VNOJ: Viet Nam Online Judge"
+            "domain": "cvpoi.com",
+            "name": "CVPOJ: Chuyen Vinh Phuc Online Judge"
         },
         "model": "sites.site",
         "pk": 1
