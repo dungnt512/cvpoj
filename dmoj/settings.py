@@ -33,8 +33,8 @@ ALLOWED_HOSTS = []
 CSRF_FAILURE_VIEW = 'judge.views.widgets.csrf_failure'
 
 SITE_ID = 1
-SITE_NAME = 'DMOJ'
-SITE_LONG_NAME = 'DMOJ: Modern Online Judge'
+SITE_NAME = 'CVPOJ'
+SITE_LONG_NAME = 'CVPOJ: Chuyen Vinh Phuc Online Judge'
 SITE_ADMIN_EMAIL = False
 
 DMOJ_REQUIRE_STAFF_2FA = True
@@ -93,7 +93,7 @@ VNOJ_TESTCASE_SOFT_LIMIT = 50
 # Minimum problem count required to create new blogs
 VNOJ_BLOG_MIN_PROBLEM_COUNT = 10
 
-VNOJ_TESTCASE_VISIBLE_LENGTH = 60
+VNOJ_TESTCASE_VISIBLE_LENGTH = 10000
 
 VNOJ_TAG_PROBLEM_MIN_RATING = 1900  # Minimum rating to be able to tag a problem
 
@@ -161,7 +161,7 @@ DISCORD_WEBHOOK = {
     'on_error': None,
 }
 
-SITE_FULL_URL = None  # ie 'https://oj.vnoi.info', please remove the last / if needed
+SITE_FULL_URL = 'https://cvpoi.com'  # ie 'https://oj.vnoi.info', please remove the last / if needed
 
 NODEJS = '/usr/bin/node'
 EXIFTOOL = '/usr/bin/exiftool'
@@ -246,7 +246,7 @@ TIMEZONE_MAP = None
 TIMEZONE_DETECT_BACKEND = None
 
 TERMS_OF_SERVICE_URL = None
-DEFAULT_USER_LANGUAGE = 'CPP17'
+DEFAULT_USER_LANGUAGE = 'CPP14'
 
 PHANTOMJS = ''
 PHANTOMJS_PDF_ZOOM = 0.75
@@ -270,7 +270,7 @@ INLINE_JQUERY = True
 INLINE_FONTAWESOME = True
 JQUERY_JS = '//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'
 FONTAWESOME_CSS = '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'
-DMOJ_CANONICAL = 'oj.vnoi.info'
+DMOJ_CANONICAL = 'cvpoi.com'
 
 # Application definition
 
@@ -641,7 +641,7 @@ EVENT_DAEMON_CONTEST_KEY = '&w7hB-.9WnY2Jj^Qm+|?o6a<!}_2Wiw+?(_Yccqq{uR;:kWQP+3R
 # Whatever you do, this better be one of the entries in `LANGUAGES`.
 LANGUAGE_CODE = 'en'
 TIME_ZONE = 'UTC'
-DEFAULT_USER_TIME_ZONE = 'America/Toronto'
+DEFAULT_USER_TIME_ZONE = 'Asia/Ho_Chi_Minh'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
