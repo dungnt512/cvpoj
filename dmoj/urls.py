@@ -12,6 +12,7 @@ from django.utils.functional import lazy
 from django.utils.translation import gettext_lazy as _
 from django.views.generic import RedirectView
 from martor.views import markdown_search_user
+#from martor.views import markdown_uploader
 
 from judge.feed import AtomBlogFeed, AtomCommentFeed, AtomProblemFeed, BlogFeed, CommentFeed, ProblemFeed
 from judge.sitemap import BlogPostSitemap, ContestSitemap, HomePageSitemap, OrganizationSitemap, ProblemSitemap, \
@@ -453,6 +454,14 @@ urlpatterns = [
         url(r'^failure$', tasks.demo_failure),
         url(r'^progress$', tasks.demo_progress),
     ])),
+
+ #   url(
+ #       r'^/widgets/martor/upload-image$',
+ #       markdown_uploader, name='markdown_uploader_page'
+ #   ),
+ #   path(
+ #       '/widgets/martor/upload-image', markdown_uploader, name='markdown_uploader_page'
+ #   ),
 ]
 
 favicon_paths = ['apple-touch-icon-180x180.png', 'apple-touch-icon-114x114.png', 'android-chrome-72x72.png',

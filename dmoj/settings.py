@@ -30,6 +30,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CSRF_COOKIE_HTTPONLY = False
 CSRF_FAILURE_VIEW = 'judge.views.widgets.csrf_failure'
 
 SITE_ID = 1
@@ -55,7 +56,7 @@ VNOJ_ORG_PP_STEP = 0.95
 VNOJ_ORG_PP_ENTRIES = 100
 VNOJ_ORG_PP_SCALE = 1
 
-VNOJ_OFFICIAL_CONTEST_MODE = False
+VNOJ_OFFICIAL_CONTEST_MODE = True
 
 # Contribution points function
 # Both should be int
@@ -93,7 +94,7 @@ VNOJ_TESTCASE_SOFT_LIMIT = 50
 # Minimum problem count required to create new blogs
 VNOJ_BLOG_MIN_PROBLEM_COUNT = 10
 
-VNOJ_TESTCASE_VISIBLE_LENGTH = 10000
+VNOJ_TESTCASE_VISIBLE_LENGTH = 2000
 
 VNOJ_TAG_PROBLEM_MIN_RATING = 1900  # Minimum rating to be able to tag a problem
 
@@ -589,15 +590,84 @@ MARTOR_ENABLE_CONFIGS = {
     'spellcheck': 'false',
     'hljs': 'false',
 }
-MARTOR_MARKDOWNIFY_URL = '/widgets/preview/default'
-MARTOR_SEARCH_USERS_URL = '/widgets/martor/search-user'
-MARTOR_UPLOAD_URL = '/widgets/martor/upload-image'
-MARTOR_MARKDOWN_BASE_MENTION_URL = '/user/'
-MARTOR_UPLOAD_URL_PREFIX = '/martor'
+# Global martor settings
+# Input: string boolean, `true/false`
+#MARTOR_ENABLE_CONFIGS = {
+#    'emoji': 'true',        # to enable/disable emoji icons.
+#    'imgur': 'true',        # to enable/disable imgur/custom uploader.
+#    'mention': 'true',     # to enable/disable mention
+#    'jquery': 'true',       # to include/revoke jquery (require for admin default django)
+#    'living': 'false',      # to enable/disable live updates in preview
+#    'spellcheck': 'false',  # to enable/disable spellcheck in form textareas
+#    'hljs': 'true',         # to enable/disable hljs highlighting in preview
+#}
+
+# To setup the martor editor with label or not (default is False)
+#MARTOR_ENABLE_LABEL = False
+
+# Imgur API Keys
+#MARTOR_IMGUR_CLIENT_ID = None
+#MARTOR_IMGUR_API_KEY   = None
+
+# Safe Mode
+#MARTOR_MARKDOWN_SAFE_MODE = True # default
+
+# Markdownify
+#MARTOR_MARKDOWNIFY_FUNCTION = 'martor.utils.markdownify' # default
+#MARTOR_MARKDOWNIFY_URL = '/martor/markdownify/' # default
+
+# Markdown extensions (default)
+#MARTOR_MARKDOWN_EXTENSIONS = [
+#    'markdown.extensions.extra',
+#    'markdown.extensions.nl2br',
+#    'markdown.extensions.smarty',
+#    'markdown.extensions.fenced_code',
+
+    # Custom markdown extensions.
+#    'martor.extensions.urlize',
+#    'martor.extensions.del_ins',    # ~~strikethrough~~ and ++underscores++
+#    'martor.extensions.mention',    # to parse markdown mention
+#    'martor.extensions.emoji',      # to parse markdown emoji
+#    'martor.extensions.mdx_video',  # to parse embed/iframe video
+#]
+
+# Markdown Extensions Configs
+#MARTOR_MARKDOWN_EXTENSION_CONFIGS = {}
+
+# Markdown urls
+#MARTOR_UPLOAD_URL = '/martor/uploader/' # default
+#MARTOR_SEARCH_USERS_URL = '/martor/search-user/' # default
+
+# Markdown Extensions
+# MARTOR_MARKDOWN_BASE_EMOJI_URL = 'https://www.webfx.com/tools/emoji-cheat-sheet/graphics/emojis/'     # from webfx
+#MARTOR_MARKDOWN_BASE_EMOJI_URL = 'https://github.githubassets.com/images/icons/emoji/'                  # default from github
+
+#import time
+#MARTOR_MARKDOWNIFY_URL = '/widgets/preview/default'
+#MARTOR_SEARCH_USERS_URL = '/widgets/martor/search-user'
+#MORTOR_UPLOAD_PATH = 'images/uploads/{}'.format(time.strftime("%Y/%m/%d/"))
+#MARTOR_UPLOAD_URL = '/widgets/martor/upload-image'
+#MARTOR_MARKDOWN_BASE_MENTION_URL = '/user/'
+#MARTOR_UPLOAD_URL_PREFIX = '/martor'
 
 # Directory under MEDIA_ROOT to use to store image uploaded through martor.
-MARTOR_UPLOAD_MEDIA_DIR = 'martor'
-MARTOR_UPLOAD_SAFE_EXTS = {'.jpg', '.png', '.gif', '.svg'}
+#MARTOR_UPLOAD_MEDIA_DIR = 'martor'
+#MARTOR_UPLOAD_SAFE_EXTS = {'.jpg', '.png', '.gif', '.svg'}
+
+# Maximum Upload Image
+# 2.5MB - 2621440
+# 5MB - 5242880
+# 10MB - 10485760
+# 20MB - 20971520
+# 50MB - 5242880
+# 100MB 104857600
+# 250MB - 214958080
+# 500MB - 429916160
+#MAX_IMAGE_UPLOAD_SIZE = 20971520  # 20MB
+
+# Media Path
+#MEDIA_URL = '/media/'
+#MEDIA_ROOT = '/home/pvviet001/site/'
 
 PDF_STATEMENT_UPLOAD_URL_PREFIX = '/pdf'
 PDF_STATEMENT_UPLOAD_MEDIA_DIR = 'pdf'
