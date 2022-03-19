@@ -12858,3 +12858,15 @@ INFO 2022-03-19 06:17:31,896 judge_handler oi_judge00: Updated problem list
 INFO 2022-03-19 06:17:31,900 judge_handler oi_judge00: Updated problem list
 INFO 2022-03-19 06:17:34,893 judge_handler oi_judge00: Updated problem list
 INFO 2022-03-19 06:17:34,901 judge_handler oi_judge00: Updated problem list
+INFO 2022-03-19 07:01:22,805 judge_list Free judges: 1
+INFO 2022-03-19 07:01:22,805 judge_list Dispatched submission 195 to: oi_judge00
+INFO 2022-03-19 07:01:22,846 judge_handler Submission acknowledged: 195
+INFO 2022-03-19 07:01:29,342 judge_handler oi_judge00: Submission generated compiler messages: 195
+INFO 2022-03-19 07:01:29,346 judge_handler oi_judge00: Grading has begun on: 195
+INFO 2022-03-19 07:01:29,546 judge_handler oi_judge00: 3 test case(s) completed on: 195
+INFO 2022-03-19 07:01:29,797 judge_handler oi_judge00: 9 test case(s) completed on: 195
+INFO 2022-03-19 07:01:30,050 judge_handler oi_judge00: 3 test case(s) completed on: 195
+INFO 2022-03-19 07:01:30,302 judge_handler oi_judge00: 3 test case(s) completed on: 195
+INFO 2022-03-19 07:01:30,404 judge_handler oi_judge00: 2 test case(s) completed on: 195
+INFO 2022-03-19 07:01:30,414 judge_handler oi_judge00: Grading has ended on: 195
+INFO 2022-03-19 07:01:30,414 judge_list Judge available after grading 195: oi_judge00
