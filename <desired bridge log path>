@@ -16866,3 +16866,40 @@ INFO 2022-03-22 03:47:29,130 judge_handler oi_judge00: 4 test case(s) completed 
 INFO 2022-03-22 03:47:29,136 judge_handler oi_judge00: Batch ended on: 371
 INFO 2022-03-22 03:47:29,137 judge_handler oi_judge00: Grading has ended on: 371
 INFO 2022-03-22 03:47:29,137 judge_list Judge available after grading 371: oi_judge00
+INFO 2022-03-22 05:34:48,783 judge_list Free judges: 2
+INFO 2022-03-22 05:34:48,783 judge_list Dispatched submission 372 to: oi_judge00
+INFO 2022-03-22 05:34:48,791 judge_handler Submission acknowledged: 372
+INFO 2022-03-22 05:34:54,417 judge_handler oi_judge00: Submission generated compiler messages: 372
+INFO 2022-03-22 05:34:54,421 judge_handler oi_judge00: Grading has begun on: 372
+INFO 2022-03-22 05:34:54,581 judge_handler oi_judge00: 11 test case(s) completed on: 372
+INFO 2022-03-22 05:34:54,686 judge_handler oi_judge00: 5 test case(s) completed on: 372
+INFO 2022-03-22 05:34:54,692 judge_handler oi_judge00: Grading has ended on: 372
+INFO 2022-03-22 05:34:54,693 judge_list Judge available after grading 372: oi_judge00
+INFO 2022-03-22 05:38:08,548 judge_list Free judges: 2
+INFO 2022-03-22 05:38:08,549 judge_list Dispatched submission 373 to: oi_judge00
+INFO 2022-03-22 05:38:08,556 judge_handler Submission acknowledged: 373
+INFO 2022-03-22 05:38:11,336 judge_handler oi_judge00: Submission generated compiler messages: 373
+INFO 2022-03-22 05:38:11,340 judge_handler oi_judge00: Grading has begun on: 373
+INFO 2022-03-22 05:38:11,364 judge_handler oi_judge00: 1 test case(s) completed on: 373
+INFO 2022-03-22 05:38:11,616 judge_handler oi_judge00: 19 test case(s) completed on: 373
+INFO 2022-03-22 05:38:11,627 judge_handler oi_judge00: Grading has ended on: 373
+INFO 2022-03-22 05:38:11,627 judge_list Judge available after grading 373: oi_judge00
+INFO 2022-03-22 05:46:19,299 judge_list Free judges: 2
+INFO 2022-03-22 05:46:19,309 judge_list Dispatched submission 374 to: oi_judge01
+INFO 2022-03-22 05:46:19,321 judge_handler Submission acknowledged: 374
+INFO 2022-03-22 05:46:23,792 judge_handler oi_judge01: Submission generated compiler messages: 374
+INFO 2022-03-22 05:46:23,795 judge_handler oi_judge01: Grading has begun on: 374
+INFO 2022-03-22 05:46:24,083 judge_handler oi_judge01: 8 test case(s) completed on: 374
+INFO 2022-03-22 05:46:24,336 judge_handler oi_judge01: 2 test case(s) completed on: 374
+INFO 2022-03-22 05:46:25,590 judge_handler oi_judge01: 1 test case(s) completed on: 374
+INFO 2022-03-22 05:46:27,351 judge_handler oi_judge01: 1 test case(s) completed on: 374
+INFO 2022-03-22 05:46:29,606 judge_handler oi_judge01: 1 test case(s) completed on: 374
+INFO 2022-03-22 05:46:30,609 judge_handler oi_judge01: 1 test case(s) completed on: 374
+INFO 2022-03-22 05:46:31,863 judge_handler oi_judge01: 1 test case(s) completed on: 374
+INFO 2022-03-22 05:46:33,869 judge_handler oi_judge01: 1 test case(s) completed on: 374
+INFO 2022-03-22 05:46:36,875 judge_handler oi_judge01: 1 test case(s) completed on: 374
+INFO 2022-03-22 05:46:39,880 judge_handler oi_judge01: 1 test case(s) completed on: 374
+INFO 2022-03-22 05:46:42,886 judge_handler oi_judge01: 1 test case(s) completed on: 374
+INFO 2022-03-22 05:46:45,833 judge_handler oi_judge01: 1 test case(s) completed on: 374
+INFO 2022-03-22 05:46:45,839 judge_handler oi_judge01: Grading has ended on: 374
+INFO 2022-03-22 05:46:45,839 judge_list Judge available after grading 374: oi_judge01
