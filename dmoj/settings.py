@@ -56,7 +56,7 @@ VNOJ_ORG_PP_STEP = 0.95
 VNOJ_ORG_PP_ENTRIES = 100
 VNOJ_ORG_PP_SCALE = 1
 
-VNOJ_OFFICIAL_CONTEST_MODE = True
+VNOJ_OFFICIAL_CONTEST_MODE = False
 
 # Contribution points function
 # Both should be int
@@ -643,16 +643,16 @@ MARTOR_ENABLE_CONFIGS = {
 #MARTOR_MARKDOWN_BASE_EMOJI_URL = 'https://github.githubassets.com/images/icons/emoji/'                  # default from github
 
 #import time
-#MARTOR_MARKDOWNIFY_URL = '/widgets/preview/default'
-#MARTOR_SEARCH_USERS_URL = '/widgets/martor/search-user'
+MARTOR_MARKDOWNIFY_URL = '/widgets/preview/default'
+MARTOR_SEARCH_USERS_URL = '/widgets/martor/search-user'
 #MORTOR_UPLOAD_PATH = 'images/uploads/{}'.format(time.strftime("%Y/%m/%d/"))
-#MARTOR_UPLOAD_URL = '/widgets/martor/upload-image'
-#MARTOR_MARKDOWN_BASE_MENTION_URL = '/user/'
-#MARTOR_UPLOAD_URL_PREFIX = '/martor'
+MARTOR_UPLOAD_URL = '/widgets/martor/upload-image'
+MARTOR_MARKDOWN_BASE_MENTION_URL = '/user/'
+MARTOR_UPLOAD_URL_PREFIX = '/martor'
 
 # Directory under MEDIA_ROOT to use to store image uploaded through martor.
-#MARTOR_UPLOAD_MEDIA_DIR = 'martor'
-#MARTOR_UPLOAD_SAFE_EXTS = {'.jpg', '.png', '.gif', '.svg'}
+MARTOR_UPLOAD_MEDIA_DIR = 'martor'
+MARTOR_UPLOAD_SAFE_EXTS = {'.jpg', '.png', '.gif', '.svg'}
 
 # Maximum Upload Image
 # 2.5MB - 2621440
@@ -709,7 +709,7 @@ EVENT_DAEMON_CONTEST_KEY = '&w7hB-.9WnY2Jj^Qm+|?o6a<!}_2Wiw+?(_Yccqq{uR;:kWQP+3R
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
 # Whatever you do, this better be one of the entries in `LANGUAGES`.
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'en-ca'
 TIME_ZONE = 'UTC'
 DEFAULT_USER_TIME_ZONE = 'Asia/Ho_Chi_Minh'
 USE_I18N = True
