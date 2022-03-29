@@ -1,15 +1,15 @@
 {% extends "user/base-users-table.html" %}
 
-{% block after_point_head %}
-    {% if is_ICPC_format %}
-        <th class="penalty">{{ _('Penalty') }}</th>
-    {% endif %}
+{% block before_point_head %}
     {% if has_rating %}
         <th class="rating-column">{{ _('Rating') }}</th>
     {% endif %}
+    {% if is_ICPC_format %}
+        <th class="penalty">{{ _('Penalty') }}</th>
+    {% endif %}
 {% endblock %}
 
-{% block after_point %}
+{% block before_point %}
     {% if has_rating %}
         <td class="rating-column">{% if user.participation_rating %}{{ rating_number(user.participation_rating) }}{% endif %}</td>
     {% endif %}
@@ -63,7 +63,7 @@
     {% endif %}
 {% endblock %}
 
-{% block before_point_head %}
+{% block after_point_head %}
     {% for problem in problems %}
         <th class="points header"><a href="{{ url('problem_detail', problem.problem.code) }}">
             {{- contest.get_label_for_problem(loop.index0) }}
@@ -81,7 +81,7 @@
     {% endif %}
 {% endblock %}
 
-{% block before_point %}
+{% block after_point %}
     {% for cell in user.problem_cells %}
         {{ cell }}
     {% endfor %}
