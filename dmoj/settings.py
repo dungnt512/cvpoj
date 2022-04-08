@@ -56,7 +56,7 @@ VNOJ_ORG_PP_STEP = 0.95
 VNOJ_ORG_PP_ENTRIES = 100
 VNOJ_ORG_PP_SCALE = 1
 
-VNOJ_OFFICIAL_CONTEST_MODE = True
+VNOJ_OFFICIAL_CONTEST_MODE = False
 
 # Contribution points function
 # Both should be int
@@ -709,7 +709,7 @@ EVENT_DAEMON_CONTEST_KEY = '&w7hB-.9WnY2Jj^Qm+|?o6a<!}_2Wiw+?(_Yccqq{uR;:kWQP+3R
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
 # Whatever you do, this better be one of the entries in `LANGUAGES`.
-LANGUAGE_CODE = 'en-ca'
+LANGUAGE_CODE = 'vi'
 TIME_ZONE = 'UTC'
 DEFAULT_USER_TIME_ZONE = 'Asia/Ho_Chi_Minh'
 USE_I18N = True
