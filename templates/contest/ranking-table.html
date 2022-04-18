@@ -94,9 +94,16 @@
 {% block after_user_list %}
     <tr>
         <td colspan=2>Total AC</td>
+	{% if has_rating %}
+	    <td class="total-ac">Na:N</td>
+	{% endif %}
+	{% if is_ICPC_format %}
+	    <td class="total-ac">Na:N</td>
+	{% endif %}
+	<td class="total-ac">Na:N</td>
         {% for problem in problems %}
             <td class="total-ac" id='{{- contest.get_label_for_problem(loop.index0) }}-total'>0</td>
         {% endfor %}
-        <td colspan=2></td>
+        <!--- <td colspan=2></td> -->
     </tr>
 {% endblock %}
