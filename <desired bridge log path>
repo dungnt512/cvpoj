@@ -217,3 +217,28 @@ Traceback (most recent call last):
     recv = self.request.recv(size_pack.size - len(buffer))
 ConnectionResetError: [Errno 104] Connection reset by peer
 INFO 2022-04-25 16:47:27,463 judge_handler Judge disconnected from: ('162.142.125.7', 32894) with name None
+INFO 2022-04-26 13:32:48,815 judge_handler Judge connected from: ('172.105.224.72', 56160)
+INFO 2022-04-26 13:32:48,819 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('172.105.224.72', 56160)
+INFO 2022-04-26 13:32:48,819 judge_handler Judge disconnected from: ('172.105.224.72', 56160) with name None
+INFO 2022-04-26 13:57:54,593 judge_handler Judge connected from: ('192.241.219.172', 56648)
+INFO 2022-04-26 13:58:04,552 judge_handler Judge disconnected from: ('192.241.219.172', 56648) with name None
+INFO 2022-04-26 15:18:48,411 judge_handler Judge connected from: ('167.99.185.20', 61953)
+INFO 2022-04-26 15:18:50,407 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('167.99.185.20', 61953)
+INFO 2022-04-26 15:18:50,408 judge_handler Judge disconnected from: ('167.99.185.20', 61953) with name None
+INFO 2022-04-26 15:28:39,614 judge_handler Judge connected from: ('128.1.248.42', 37060)
+INFO 2022-04-26 15:28:39,615 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('128.1.248.42', 37060)
+INFO 2022-04-26 15:28:39,615 judge_handler Judge disconnected from: ('128.1.248.42', 37060) with name None
+INFO 2022-04-26 17:52:30,800 judge_handler Judge connected from: ('186.103.134.202', 55570)
+INFO 2022-04-26 17:52:30,801 base_handler Potentially wrong protocol (zlib error): ('186.103.134.202', 55570): b'\x00\x00\x007'
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 166, in handle
+    self.read_sized_packet(tag)
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 89, in read_sized_packet
+    self._on_packet(b''.join(buffer))
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 128, in _on_packet
+    decompressed = zlib.decompress(data).decode('utf-8')
+zlib.error: Error -3 while decompressing data: incorrect header check
+INFO 2022-04-26 17:52:30,803 judge_handler Judge disconnected from: ('186.103.134.202', 55570) with name None
+INFO 2022-04-26 17:52:31,128 judge_handler Judge connected from: ('186.103.134.202', 55572)
+INFO 2022-04-26 17:52:41,290 judge_handler Judge connected from: ('186.103.134.202', 55612)
+INFO 2022-04-26 17:52:51,290 judge_handler Judge disconnected from: ('186.103.134.202', 55612) with name None
