@@ -3298,3 +3298,20 @@ INFO 2022-06-06 21:41:24,651 judge_handler Judge disconnected from: ('162.142.12
 INFO 2022-06-06 22:26:00,306 judge_handler Judge connected from: ('92.255.85.183', 4931)
 INFO 2022-06-06 22:26:15,322 base_handler Potentially wrong protocol: ('92.255.85.183', 4931): None
 INFO 2022-06-06 22:26:15,323 judge_handler Judge disconnected from: ('92.255.85.183', 4931) with name None
+INFO 2022-06-07 02:24:41,520 judge_handler Judge connected from: ('159.223.234.178', 61953)
+INFO 2022-06-07 02:24:43,521 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('159.223.234.178', 61953)
+INFO 2022-06-07 02:24:43,522 judge_handler Judge disconnected from: ('159.223.234.178', 61953) with name None
+INFO 2022-06-07 06:33:52,013 judge_handler Judge connected from: ('92.255.85.183', 62579)
+INFO 2022-06-07 06:33:52,452 base_handler Disconnecting client due to too-large message size (50331695 bytes): ('92.255.85.183', 62579)
+INFO 2022-06-07 06:33:52,453 judge_handler Judge disconnected from: ('92.255.85.183', 62579) with name None
+INFO 2022-06-07 07:31:28,126 judge_handler Judge connected from: ('193.106.191.48', 41790)
+INFO 2022-06-07 07:31:28,145 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('193.106.191.48', 41790)
+INFO 2022-06-07 07:31:28,145 judge_handler Judge disconnected from: ('193.106.191.48', 41790) with name None
+INFO 2022-06-07 11:54:15,979 judge_handler Judge connected from: ('79.124.62.106', 2377)
+INFO 2022-06-07 11:54:16,807 base_handler Disconnecting client due to too-large message size (50331695 bytes): ('79.124.62.106', 2377)
+INFO 2022-06-07 11:54:16,807 judge_handler Judge disconnected from: ('79.124.62.106', 2377) with name None
+INFO 2022-06-07 14:34:17,965 judge_handler Judge connected from: ('192.241.219.61', 42574)
+INFO 2022-06-07 14:34:27,924 judge_handler Judge disconnected from: ('192.241.219.61', 42574) with name None
+INFO 2022-06-07 15:28:50,114 judge_handler Judge connected from: ('192.241.206.25', 55580)
+INFO 2022-06-07 15:28:50,269 base_handler Disconnecting client due to too-large message size (1296518222 bytes): ('192.241.206.25', 55580)
+INFO 2022-06-07 15:28:50,269 judge_handler Judge disconnected from: ('192.241.206.25', 55580) with name None
