@@ -9966,3 +9966,252 @@ INFO 2022-06-16 18:17:05,325 judge_handler Judge disconnected from: ('134.122.10
 INFO 2022-06-16 18:17:05,670 judge_handler Judge connected from: ('134.122.10.207', 36390)
 INFO 2022-06-16 18:17:05,670 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('134.122.10.207', 36390)
 INFO 2022-06-16 18:17:05,671 judge_handler Judge disconnected from: ('134.122.10.207', 36390) with name None
+INFO 2022-06-17 00:20:41,241 judge_list Free judges: 1
+INFO 2022-06-17 00:20:41,241 judge_list Dispatched submission 1337 to: oi_judge00
+INFO 2022-06-17 00:20:41,270 judge_handler Submission acknowledged: 1337
+INFO 2022-06-17 00:20:49,044 judge_handler oi_judge00: Submission generated compiler messages: 1337
+INFO 2022-06-17 00:20:49,072 judge_handler oi_judge00: Grading has begun on: 1337
+INFO 2022-06-17 00:20:49,084 judge_handler oi_judge00: Batch began on: 1337
+INFO 2022-06-17 00:20:49,179 judge_handler oi_judge00: 6 test case(s) completed on: 1337
+INFO 2022-06-17 00:20:49,194 judge_handler oi_judge00: Batch ended on: 1337
+INFO 2022-06-17 00:20:49,195 judge_handler oi_judge00: Batch began on: 1337
+INFO 2022-06-17 00:20:49,218 judge_handler oi_judge00: 6 test case(s) completed on: 1337
+INFO 2022-06-17 00:20:49,227 judge_handler oi_judge00: Batch ended on: 1337
+INFO 2022-06-17 00:20:49,228 judge_handler oi_judge00: Batch began on: 1337
+INFO 2022-06-17 00:20:49,280 judge_handler oi_judge00: 8 test case(s) completed on: 1337
+INFO 2022-06-17 00:20:49,290 judge_handler oi_judge00: Batch ended on: 1337
+INFO 2022-06-17 00:20:49,290 judge_handler oi_judge00: Grading has ended on: 1337
+INFO 2022-06-17 00:20:49,291 judge_list Judge available after grading 1337: oi_judge00
+INFO 2022-06-17 00:33:41,234 judge_list Free judges: 1
+INFO 2022-06-17 00:33:41,235 judge_list Dispatched submission 1338 to: oi_judge00
+INFO 2022-06-17 00:33:41,250 judge_handler Submission acknowledged: 1338
+INFO 2022-06-17 00:33:41,860 judge_handler oi_judge00: Submission generated compiler messages: 1338
+INFO 2022-06-17 00:33:41,864 judge_handler oi_judge00: Grading has begun on: 1338
+INFO 2022-06-17 00:33:41,874 judge_handler oi_judge00: Batch began on: 1338
+INFO 2022-06-17 00:33:41,912 judge_handler oi_judge00: 6 test case(s) completed on: 1338
+INFO 2022-06-17 00:33:41,924 judge_handler oi_judge00: Batch ended on: 1338
+INFO 2022-06-17 00:33:41,924 judge_handler oi_judge00: Batch began on: 1338
+INFO 2022-06-17 00:33:42,006 judge_handler oi_judge00: 6 test case(s) completed on: 1338
+INFO 2022-06-17 00:33:42,019 judge_handler oi_judge00: Batch ended on: 1338
+INFO 2022-06-17 00:33:42,019 judge_handler oi_judge00: Batch began on: 1338
+INFO 2022-06-17 00:33:42,040 judge_handler oi_judge00: 8 test case(s) completed on: 1338
+INFO 2022-06-17 00:33:42,051 judge_handler oi_judge00: Batch ended on: 1338
+INFO 2022-06-17 00:33:42,052 judge_handler oi_judge00: Grading has ended on: 1338
+INFO 2022-06-17 00:33:42,052 judge_list Judge available after grading 1338: oi_judge00
+INFO 2022-06-17 00:37:12,637 judge_list Free judges: 1
+INFO 2022-06-17 00:37:12,638 judge_list Dispatched submission 1339 to: oi_judge00
+INFO 2022-06-17 00:37:12,656 judge_handler Submission acknowledged: 1339
+INFO 2022-06-17 00:37:13,387 judge_handler oi_judge00: Submission generated compiler messages: 1339
+INFO 2022-06-17 00:37:13,392 judge_handler oi_judge00: Grading has begun on: 1339
+INFO 2022-06-17 00:37:13,407 judge_handler oi_judge00: Batch began on: 1339
+INFO 2022-06-17 00:37:13,501 judge_handler oi_judge00: 6 test case(s) completed on: 1339
+INFO 2022-06-17 00:37:13,517 judge_handler oi_judge00: Batch ended on: 1339
+INFO 2022-06-17 00:37:13,518 judge_handler oi_judge00: Batch began on: 1339
+INFO 2022-06-17 00:37:13,614 judge_handler oi_judge00: 6 test case(s) completed on: 1339
+INFO 2022-06-17 00:37:13,744 judge_handler oi_judge00: Batch ended on: 1339
+INFO 2022-06-17 00:37:13,744 judge_handler oi_judge00: Batch began on: 1339
+INFO 2022-06-17 00:37:13,745 judge_handler oi_judge00: 8 test case(s) completed on: 1339
+INFO 2022-06-17 00:37:13,754 judge_handler oi_judge00: Batch ended on: 1339
+INFO 2022-06-17 00:37:13,754 judge_handler oi_judge00: Grading has ended on: 1339
+INFO 2022-06-17 00:37:13,754 judge_list Judge available after grading 1339: oi_judge00
+INFO 2022-06-17 00:45:06,459 judge_list Free judges: 1
+INFO 2022-06-17 00:45:06,459 judge_list Dispatched submission 1340 to: oi_judge00
+INFO 2022-06-17 00:45:06,476 judge_handler Submission acknowledged: 1340
+INFO 2022-06-17 00:45:07,121 judge_handler oi_judge00: Submission generated compiler messages: 1340
+INFO 2022-06-17 00:45:07,126 judge_handler oi_judge00: Grading has begun on: 1340
+INFO 2022-06-17 00:45:07,136 judge_handler oi_judge00: Batch began on: 1340
+INFO 2022-06-17 00:45:07,222 judge_handler oi_judge00: 6 test case(s) completed on: 1340
+INFO 2022-06-17 00:45:07,235 judge_handler oi_judge00: Batch ended on: 1340
+INFO 2022-06-17 00:45:07,236 judge_handler oi_judge00: Batch began on: 1340
+INFO 2022-06-17 00:45:07,247 judge_handler oi_judge00: 1 test case(s) completed on: 1340
+INFO 2022-06-17 00:45:07,346 judge_handler oi_judge00: 5 test case(s) completed on: 1340
+INFO 2022-06-17 00:45:07,359 judge_handler oi_judge00: Batch ended on: 1340
+INFO 2022-06-17 00:45:07,360 judge_handler oi_judge00: Batch began on: 1340
+INFO 2022-06-17 00:45:07,382 judge_handler oi_judge00: 8 test case(s) completed on: 1340
+INFO 2022-06-17 00:45:07,393 judge_handler oi_judge00: Batch ended on: 1340
+INFO 2022-06-17 00:45:07,394 judge_handler oi_judge00: Grading has ended on: 1340
+INFO 2022-06-17 00:45:07,394 judge_list Judge available after grading 1340: oi_judge00
+INFO 2022-06-17 00:46:02,007 judge_list Free judges: 1
+INFO 2022-06-17 00:46:02,008 judge_list Dispatched submission 1341 to: oi_judge00
+INFO 2022-06-17 00:46:02,022 judge_handler Submission acknowledged: 1341
+INFO 2022-06-17 00:46:02,633 judge_handler oi_judge00: Submission generated compiler messages: 1341
+INFO 2022-06-17 00:46:02,637 judge_handler oi_judge00: Grading has begun on: 1341
+INFO 2022-06-17 00:46:02,646 judge_handler oi_judge00: Batch began on: 1341
+INFO 2022-06-17 00:46:02,731 judge_handler oi_judge00: 6 test case(s) completed on: 1341
+INFO 2022-06-17 00:46:02,743 judge_handler oi_judge00: Batch ended on: 1341
+INFO 2022-06-17 00:46:02,744 judge_handler oi_judge00: Batch began on: 1341
+INFO 2022-06-17 00:46:02,817 judge_handler oi_judge00: 6 test case(s) completed on: 1341
+INFO 2022-06-17 00:46:02,843 judge_handler oi_judge00: Batch ended on: 1341
+INFO 2022-06-17 00:46:02,843 judge_handler oi_judge00: Batch began on: 1341
+INFO 2022-06-17 00:46:02,859 judge_handler oi_judge00: 8 test case(s) completed on: 1341
+INFO 2022-06-17 00:46:02,869 judge_handler oi_judge00: Batch ended on: 1341
+INFO 2022-06-17 00:46:02,870 judge_handler oi_judge00: Grading has ended on: 1341
+INFO 2022-06-17 00:46:02,870 judge_list Judge available after grading 1341: oi_judge00
+INFO 2022-06-17 00:48:44,891 judge_list Free judges: 1
+INFO 2022-06-17 00:48:44,892 judge_list Dispatched submission 1342 to: oi_judge00
+INFO 2022-06-17 00:48:44,906 judge_handler Submission acknowledged: 1342
+INFO 2022-06-17 00:48:45,619 judge_handler oi_judge00: Submission generated compiler messages: 1342
+INFO 2022-06-17 00:48:45,624 judge_handler oi_judge00: Grading has begun on: 1342
+INFO 2022-06-17 00:48:45,638 judge_handler oi_judge00: Batch began on: 1342
+INFO 2022-06-17 00:48:45,731 judge_handler oi_judge00: 6 test case(s) completed on: 1342
+INFO 2022-06-17 00:48:45,745 judge_handler oi_judge00: Batch ended on: 1342
+INFO 2022-06-17 00:48:45,746 judge_handler oi_judge00: Batch began on: 1342
+INFO 2022-06-17 00:48:45,835 judge_handler oi_judge00: 5 test case(s) completed on: 1342
+INFO 2022-06-17 00:48:45,848 judge_handler oi_judge00: 1 test case(s) completed on: 1342
+INFO 2022-06-17 00:48:45,964 judge_handler oi_judge00: Batch ended on: 1342
+INFO 2022-06-17 00:48:45,965 judge_handler oi_judge00: Batch began on: 1342
+INFO 2022-06-17 00:48:45,965 judge_handler oi_judge00: 8 test case(s) completed on: 1342
+INFO 2022-06-17 00:48:45,976 judge_handler oi_judge00: Batch ended on: 1342
+INFO 2022-06-17 00:48:45,976 judge_handler oi_judge00: Grading has ended on: 1342
+INFO 2022-06-17 00:48:45,977 judge_list Judge available after grading 1342: oi_judge00
+INFO 2022-06-17 01:02:44,958 judge_list Free judges: 1
+INFO 2022-06-17 01:02:44,958 judge_list Dispatched submission 1343 to: oi_judge00
+INFO 2022-06-17 01:02:44,968 judge_handler Submission acknowledged: 1343
+INFO 2022-06-17 01:02:45,565 judge_handler oi_judge00: Submission generated compiler messages: 1343
+INFO 2022-06-17 01:02:45,569 judge_handler oi_judge00: Grading has begun on: 1343
+INFO 2022-06-17 01:02:45,579 judge_handler oi_judge00: Batch began on: 1343
+INFO 2022-06-17 01:02:45,619 judge_handler oi_judge00: 1 test case(s) completed on: 1343
+INFO 2022-06-17 01:02:45,654 judge_handler oi_judge00: 5 test case(s) completed on: 1343
+INFO 2022-06-17 01:02:45,666 judge_handler oi_judge00: Batch ended on: 1343
+INFO 2022-06-17 01:02:45,667 judge_handler oi_judge00: Batch began on: 1343
+INFO 2022-06-17 01:02:45,716 judge_handler oi_judge00: 6 test case(s) completed on: 1343
+INFO 2022-06-17 01:02:45,727 judge_handler oi_judge00: Batch ended on: 1343
+INFO 2022-06-17 01:02:45,728 judge_handler oi_judge00: Batch began on: 1343
+INFO 2022-06-17 01:02:45,757 judge_handler oi_judge00: 8 test case(s) completed on: 1343
+INFO 2022-06-17 01:02:45,767 judge_handler oi_judge00: Batch ended on: 1343
+INFO 2022-06-17 01:02:45,768 judge_handler oi_judge00: Grading has ended on: 1343
+INFO 2022-06-17 01:02:45,768 judge_list Judge available after grading 1343: oi_judge00
+INFO 2022-06-17 01:11:15,210 judge_list Free judges: 1
+INFO 2022-06-17 01:11:15,211 judge_list Dispatched submission 1344 to: oi_judge00
+INFO 2022-06-17 01:11:15,222 judge_handler Submission acknowledged: 1344
+INFO 2022-06-17 01:11:15,866 judge_handler oi_judge00: Submission generated compiler messages: 1344
+INFO 2022-06-17 01:11:15,870 judge_handler oi_judge00: Grading has begun on: 1344
+INFO 2022-06-17 01:11:15,881 judge_handler oi_judge00: Batch began on: 1344
+INFO 2022-06-17 01:11:15,887 judge_handler oi_judge00: 6 test case(s) completed on: 1344
+INFO 2022-06-17 01:11:15,899 judge_handler oi_judge00: Batch ended on: 1344
+INFO 2022-06-17 01:11:15,899 judge_handler oi_judge00: Batch began on: 1344
+INFO 2022-06-17 01:11:15,907 judge_handler oi_judge00: 6 test case(s) completed on: 1344
+INFO 2022-06-17 01:11:15,918 judge_handler oi_judge00: Batch ended on: 1344
+INFO 2022-06-17 01:11:15,919 judge_handler oi_judge00: Batch began on: 1344
+INFO 2022-06-17 01:11:15,953 judge_handler oi_judge00: 8 test case(s) completed on: 1344
+INFO 2022-06-17 01:11:15,963 judge_handler oi_judge00: Batch ended on: 1344
+INFO 2022-06-17 01:11:15,964 judge_handler oi_judge00: Grading has ended on: 1344
+INFO 2022-06-17 01:11:15,964 judge_list Judge available after grading 1344: oi_judge00
+INFO 2022-06-17 01:11:40,230 judge_list Free judges: 1
+INFO 2022-06-17 01:11:40,230 judge_list Dispatched submission 1345 to: oi_judge00
+INFO 2022-06-17 01:11:40,251 judge_handler Submission acknowledged: 1345
+INFO 2022-06-17 01:11:40,965 judge_handler oi_judge00: Submission generated compiler messages: 1345
+INFO 2022-06-17 01:11:40,970 judge_handler oi_judge00: Grading has begun on: 1345
+INFO 2022-06-17 01:11:40,983 judge_handler oi_judge00: Batch began on: 1345
+INFO 2022-06-17 01:11:41,032 judge_handler oi_judge00: 6 test case(s) completed on: 1345
+INFO 2022-06-17 01:11:41,049 judge_handler oi_judge00: Batch ended on: 1345
+INFO 2022-06-17 01:11:41,050 judge_handler oi_judge00: Batch began on: 1345
+INFO 2022-06-17 01:11:41,127 judge_handler oi_judge00: 6 test case(s) completed on: 1345
+INFO 2022-06-17 01:11:41,140 judge_handler oi_judge00: Batch ended on: 1345
+INFO 2022-06-17 01:11:41,141 judge_handler oi_judge00: Batch began on: 1345
+INFO 2022-06-17 01:11:41,165 judge_handler oi_judge00: 8 test case(s) completed on: 1345
+INFO 2022-06-17 01:11:41,178 judge_handler oi_judge00: Batch ended on: 1345
+INFO 2022-06-17 01:11:41,178 judge_handler oi_judge00: Grading has ended on: 1345
+INFO 2022-06-17 01:11:41,178 judge_list Judge available after grading 1345: oi_judge00
+INFO 2022-06-17 01:40:55,206 judge_list Free judges: 1
+INFO 2022-06-17 01:40:55,206 judge_list Dispatched submission 1346 to: oi_judge00
+INFO 2022-06-17 01:40:55,218 judge_handler Submission acknowledged: 1346
+INFO 2022-06-17 01:40:55,957 judge_handler oi_judge00: Submission generated compiler messages: 1346
+INFO 2022-06-17 01:40:55,963 judge_handler oi_judge00: Grading has begun on: 1346
+INFO 2022-06-17 01:40:55,974 judge_handler oi_judge00: Batch began on: 1346
+INFO 2022-06-17 01:40:56,016 judge_handler oi_judge00: 6 test case(s) completed on: 1346
+INFO 2022-06-17 01:40:56,032 judge_handler oi_judge00: Batch ended on: 1346
+INFO 2022-06-17 01:40:56,032 judge_handler oi_judge00: Batch began on: 1346
+INFO 2022-06-17 01:40:56,130 judge_handler oi_judge00: 6 test case(s) completed on: 1346
+INFO 2022-06-17 01:40:56,145 judge_handler oi_judge00: Batch ended on: 1346
+INFO 2022-06-17 01:40:56,145 judge_handler oi_judge00: Batch began on: 1346
+INFO 2022-06-17 01:40:56,169 judge_handler oi_judge00: 8 test case(s) completed on: 1346
+INFO 2022-06-17 01:40:56,181 judge_handler oi_judge00: Batch ended on: 1346
+INFO 2022-06-17 01:40:56,182 judge_handler oi_judge00: Grading has ended on: 1346
+INFO 2022-06-17 01:40:56,182 judge_list Judge available after grading 1346: oi_judge00
+INFO 2022-06-17 01:41:40,093 judge_list Free judges: 1
+INFO 2022-06-17 01:41:40,093 judge_list Dispatched submission 1347 to: oi_judge00
+INFO 2022-06-17 01:41:40,104 judge_handler Submission acknowledged: 1347
+INFO 2022-06-17 01:41:40,774 judge_handler oi_judge00: Submission generated compiler messages: 1347
+INFO 2022-06-17 01:41:40,778 judge_handler oi_judge00: Grading has begun on: 1347
+INFO 2022-06-17 01:41:40,787 judge_handler oi_judge00: Batch began on: 1347
+INFO 2022-06-17 01:41:40,825 judge_handler oi_judge00: 6 test case(s) completed on: 1347
+INFO 2022-06-17 01:41:40,837 judge_handler oi_judge00: Batch ended on: 1347
+INFO 2022-06-17 01:41:40,837 judge_handler oi_judge00: Batch began on: 1347
+INFO 2022-06-17 01:41:40,918 judge_handler oi_judge00: 6 test case(s) completed on: 1347
+INFO 2022-06-17 01:41:40,930 judge_handler oi_judge00: Batch ended on: 1347
+INFO 2022-06-17 01:41:40,931 judge_handler oi_judge00: Batch began on: 1347
+INFO 2022-06-17 01:41:40,955 judge_handler oi_judge00: 8 test case(s) completed on: 1347
+INFO 2022-06-17 01:41:40,965 judge_handler oi_judge00: Batch ended on: 1347
+INFO 2022-06-17 01:41:40,966 judge_handler oi_judge00: Grading has ended on: 1347
+INFO 2022-06-17 01:41:40,966 judge_list Judge available after grading 1347: oi_judge00
+INFO 2022-06-17 01:46:15,013 judge_list Free judges: 1
+INFO 2022-06-17 01:46:15,013 judge_list Dispatched submission 1348 to: oi_judge00
+INFO 2022-06-17 01:46:15,022 judge_handler Submission acknowledged: 1348
+INFO 2022-06-17 01:46:15,613 judge_handler oi_judge00: Submission generated compiler messages: 1348
+INFO 2022-06-17 01:46:15,617 judge_handler oi_judge00: Grading has begun on: 1348
+INFO 2022-06-17 01:46:15,627 judge_handler oi_judge00: Batch began on: 1348
+INFO 2022-06-17 01:46:15,646 judge_handler oi_judge00: 1 test case(s) completed on: 1348
+INFO 2022-06-17 01:46:15,716 judge_handler oi_judge00: 5 test case(s) completed on: 1348
+INFO 2022-06-17 01:46:15,727 judge_handler oi_judge00: Batch ended on: 1348
+INFO 2022-06-17 01:46:15,728 judge_handler oi_judge00: Batch began on: 1348
+INFO 2022-06-17 01:46:15,804 judge_handler oi_judge00: 6 test case(s) completed on: 1348
+INFO 2022-06-17 01:46:15,834 judge_handler oi_judge00: Batch ended on: 1348
+INFO 2022-06-17 01:46:15,835 judge_handler oi_judge00: Batch began on: 1348
+INFO 2022-06-17 01:46:15,840 judge_handler oi_judge00: 8 test case(s) completed on: 1348
+INFO 2022-06-17 01:46:15,850 judge_handler oi_judge00: Batch ended on: 1348
+INFO 2022-06-17 01:46:15,850 judge_handler oi_judge00: Grading has ended on: 1348
+INFO 2022-06-17 01:46:15,850 judge_list Judge available after grading 1348: oi_judge00
+INFO 2022-06-17 05:33:52,714 judge_handler Judge connected from: ('139.162.190.203', 16174)
+INFO 2022-06-17 05:33:54,696 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('139.162.190.203', 16174)
+INFO 2022-06-17 05:33:54,696 judge_handler Judge disconnected from: ('139.162.190.203', 16174) with name None
+INFO 2022-06-17 06:32:26,489 judge_handler Judge connected from: ('185.7.214.104', 60816)
+INFO 2022-06-17 06:32:26,530 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('185.7.214.104', 60816)
+INFO 2022-06-17 06:32:26,530 judge_handler Judge disconnected from: ('185.7.214.104', 60816) with name None
+INFO 2022-06-17 08:07:38,193 judge_handler Judge connected from: ('222.175.199.222', 23456)
+INFO 2022-06-17 08:07:40,190 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('222.175.199.222', 23456)
+INFO 2022-06-17 08:07:40,191 judge_handler Judge disconnected from: ('222.175.199.222', 23456) with name None
+INFO 2022-06-17 08:33:21,491 judge_handler Judge connected from: ('62.233.50.179', 61362)
+INFO 2022-06-17 08:33:21,913 base_handler Disconnecting client due to too-large message size (50331695 bytes): ('62.233.50.179', 61362)
+INFO 2022-06-17 08:33:21,914 judge_handler Judge disconnected from: ('62.233.50.179', 61362) with name None
+INFO 2022-06-17 09:27:40,701 judge_handler Judge connected from: ('193.37.255.114', 49710)
+INFO 2022-06-17 09:27:45,820 judge_handler Judge connected from: ('193.37.255.114', 51272)
+INFO 2022-06-17 09:27:46,941 judge_handler Judge connected from: ('193.37.255.114', 51740)
+INFO 2022-06-17 09:27:46,941 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('193.37.255.114', 51740)
+INFO 2022-06-17 09:27:46,942 judge_handler Judge disconnected from: ('193.37.255.114', 51740) with name None
+INFO 2022-06-17 09:27:47,111 judge_handler Judge disconnected from: ('193.37.255.114', 51272) with name None
+INFO 2022-06-17 09:27:50,830 judge_handler Judge disconnected from: ('193.37.255.114', 49710) with name None
+INFO 2022-06-17 13:20:32,197 judge_handler Judge connected from: ('162.142.125.8', 60546)
+ERROR 2022-06-17 13:20:33,196 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-06-17 13:20:33,214 judge_handler Judge connected from: ('162.142.125.8', 56982)
+INFO 2022-06-17 13:20:33,215 base_handler Disconnecting client due to too-large message size (369295616 bytes): ('162.142.125.8', 56982)
+INFO 2022-06-17 13:20:33,216 judge_handler Judge disconnected from: ('162.142.125.8', 56982) with name None
+INFO 2022-06-17 13:20:33,263 judge_handler Judge connected from: ('162.142.125.8', 57810)
+INFO 2022-06-17 13:20:34,096 judge_handler Judge disconnected from: ('162.142.125.8', 60546) with name None
+INFO 2022-06-17 13:20:34,254 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('162.142.125.8', 57810)
+INFO 2022-06-17 13:20:34,254 judge_handler Judge disconnected from: ('162.142.125.8', 57810) with name None
+INFO 2022-06-17 13:20:34,283 judge_handler Judge connected from: ('162.142.125.8', 54038)
+ERROR 2022-06-17 13:20:34,283 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-06-17 13:20:34,736 judge_handler Judge disconnected from: ('162.142.125.8', 54038) with name None
+INFO 2022-06-17 17:51:37,512 judge_handler Judge connected from: ('198.199.95.72', 55456)
+INFO 2022-06-17 17:51:37,524 base_handler Disconnecting client due to too-large message size (1296518222 bytes): ('198.199.95.72', 55456)
+INFO 2022-06-17 17:51:37,524 judge_handler Judge disconnected from: ('198.199.95.72', 55456) with name None
+INFO 2022-06-17 21:07:08,976 judge_handler Judge connected from: ('147.78.47.72', 64415)
+INFO 2022-06-17 21:07:08,977 base_handler Disconnecting client due to too-large message size (50331695 bytes): ('147.78.47.72', 64415)
+INFO 2022-06-17 21:07:08,977 judge_handler Judge disconnected from: ('147.78.47.72', 64415) with name None
