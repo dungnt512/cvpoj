@@ -10356,3 +10356,101 @@ INFO 2022-06-19 21:22:15,542 judge_handler Judge disconnected from: ('62.233.50.
 INFO 2022-06-19 22:55:03,053 judge_handler Judge connected from: ('185.7.214.104', 43806)
 INFO 2022-06-19 22:55:05,398 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('185.7.214.104', 43806)
 INFO 2022-06-19 22:55:05,398 judge_handler Judge disconnected from: ('185.7.214.104', 43806) with name None
+INFO 2022-06-20 02:02:23,695 judge_handler Judge connected from: ('162.142.125.219', 48404)
+ERROR 2022-06-20 02:02:24,703 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-06-20 02:02:24,721 judge_handler Judge connected from: ('162.142.125.219', 49130)
+INFO 2022-06-20 02:02:24,721 base_handler Disconnecting client due to too-large message size (369295616 bytes): ('162.142.125.219', 49130)
+INFO 2022-06-20 02:02:24,722 judge_handler Judge disconnected from: ('162.142.125.219', 49130) with name None
+INFO 2022-06-20 02:02:24,759 judge_handler Judge connected from: ('162.142.125.219', 50216)
+INFO 2022-06-20 02:02:25,709 judge_handler Judge disconnected from: ('162.142.125.219', 48404) with name None
+INFO 2022-06-20 02:02:25,767 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('162.142.125.219', 50216)
+INFO 2022-06-20 02:02:25,767 judge_handler Judge disconnected from: ('162.142.125.219', 50216) with name None
+INFO 2022-06-20 02:02:25,796 judge_handler Judge connected from: ('162.142.125.219', 48808)
+ERROR 2022-06-20 02:02:25,797 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-06-20 02:02:26,287 judge_handler Judge disconnected from: ('162.142.125.219', 48808) with name None
+INFO 2022-06-20 02:21:19,030 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 02:21:38,898 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 02:21:38,918 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 02:21:38,925 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 02:23:18,204 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 02:23:18,235 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 02:23:18,247 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 02:23:18,254 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 02:50:26,155 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 02:50:56,779 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 02:50:56,789 judge_handler oi_judge00: Updated problem list
+INFO 2022-06-20 09:04:30,086 judge_handler Judge connected from: ('89.248.165.29', 65065)
+INFO 2022-06-20 09:04:30,086 base_handler Disconnecting client due to too-large message size (50331695 bytes): ('89.248.165.29', 65065)
+INFO 2022-06-20 09:04:30,086 judge_handler Judge disconnected from: ('89.248.165.29', 65065) with name None
+INFO 2022-06-20 09:27:47,217 judge_handler Judge connected from: ('89.248.165.29', 62931)
+INFO 2022-06-20 09:27:47,218 base_handler Disconnecting client due to too-large message size (50331695 bytes): ('89.248.165.29', 62931)
+INFO 2022-06-20 09:27:47,218 judge_handler Judge disconnected from: ('89.248.165.29', 62931) with name None
+INFO 2022-06-20 13:33:26,552 judge_handler Judge connected from: ('187.141.124.226', 49622)
+INFO 2022-06-20 13:33:26,629 judge_handler Judge disconnected from: ('187.141.124.226', 49622) with name None
+INFO 2022-06-20 13:33:44,912 judge_handler Judge connected from: ('187.141.124.226', 54468)
+INFO 2022-06-20 13:33:44,913 base_handler Disconnecting client due to too-large message size (1347375956 bytes): ('187.141.124.226', 54468)
+INFO 2022-06-20 13:33:44,913 judge_handler Judge disconnected from: ('187.141.124.226', 54468) with name None
+INFO 2022-06-20 15:09:22,001 judge_handler Judge connected from: ('27.124.2.173', 62098)
+INFO 2022-06-20 15:09:22,004 base_handler Disconnecting client due to too-large message size (50331667 bytes): ('27.124.2.173', 62098)
+INFO 2022-06-20 15:09:22,004 judge_handler Judge disconnected from: ('27.124.2.173', 62098) with name None
+INFO 2022-06-20 16:25:36,678 judge_list Free judges: 1
+INFO 2022-06-20 16:25:36,678 judge_list Dispatched submission 1349 to: oi_judge00
+INFO 2022-06-20 16:25:36,721 judge_handler Submission acknowledged: 1349
+INFO 2022-06-20 16:25:46,815 judge_handler oi_judge00: Submission generated compiler messages: 1349
+INFO 2022-06-20 16:25:46,842 judge_handler oi_judge00: Grading has begun on: 1349
+INFO 2022-06-20 16:25:46,849 judge_handler oi_judge00: Batch began on: 1349
+INFO 2022-06-20 16:25:47,048 judge_handler oi_judge00: 10 test case(s) completed on: 1349
+INFO 2022-06-20 16:25:47,058 judge_handler oi_judge00: Batch ended on: 1349
+INFO 2022-06-20 16:25:47,058 judge_handler oi_judge00: Batch began on: 1349
+INFO 2022-06-20 16:25:47,118 judge_handler oi_judge00: 12 test case(s) completed on: 1349
+INFO 2022-06-20 16:25:47,130 judge_handler oi_judge00: Batch ended on: 1349
+INFO 2022-06-20 16:25:47,131 judge_handler oi_judge00: Grading has ended on: 1349
+INFO 2022-06-20 16:25:47,131 judge_list Judge available after grading 1349: oi_judge00
+INFO 2022-06-20 16:32:21,660 judge_list Free judges: 1
+INFO 2022-06-20 16:32:21,660 judge_list Dispatched submission 1350 to: oi_judge00
+INFO 2022-06-20 16:32:21,673 judge_handler Submission acknowledged: 1350
+INFO 2022-06-20 16:32:26,813 judge_handler oi_judge00: Submission generated compiler messages: 1350
+INFO 2022-06-20 16:32:26,818 judge_handler oi_judge00: Grading has begun on: 1350
+INFO 2022-06-20 16:32:26,825 judge_handler oi_judge00: Batch began on: 1350
+INFO 2022-06-20 16:32:26,842 judge_handler oi_judge00: 10 test case(s) completed on: 1350
+INFO 2022-06-20 16:32:26,850 judge_handler oi_judge00: Batch ended on: 1350
+INFO 2022-06-20 16:32:26,851 judge_handler oi_judge00: Batch began on: 1350
+INFO 2022-06-20 16:32:26,907 judge_handler oi_judge00: 12 test case(s) completed on: 1350
+INFO 2022-06-20 16:32:26,915 judge_handler oi_judge00: Batch ended on: 1350
+INFO 2022-06-20 16:32:26,915 judge_handler oi_judge00: Grading has ended on: 1350
+INFO 2022-06-20 16:32:26,915 judge_list Judge available after grading 1350: oi_judge00
+INFO 2022-06-20 16:43:59,394 judge_list Free judges: 1
+INFO 2022-06-20 16:43:59,395 judge_list Dispatched submission 1351 to: oi_judge00
+INFO 2022-06-20 16:43:59,409 judge_handler Submission acknowledged: 1351
+INFO 2022-06-20 16:44:03,660 judge_handler oi_judge00: Submission generated compiler messages: 1351
+INFO 2022-06-20 16:44:03,664 judge_handler oi_judge00: Grading has begun on: 1351
+INFO 2022-06-20 16:44:03,752 judge_handler oi_judge00: Batch began on: 1351
+INFO 2022-06-20 16:44:03,803 judge_handler oi_judge00: 10 test case(s) completed on: 1351
+INFO 2022-06-20 16:44:03,809 judge_handler oi_judge00: Batch ended on: 1351
+INFO 2022-06-20 16:44:03,809 judge_handler oi_judge00: Batch began on: 1351
+INFO 2022-06-20 16:44:04,102 judge_handler oi_judge00: 3 test case(s) completed on: 1351
+INFO 2022-06-20 16:44:04,303 judge_handler oi_judge00: 9 test case(s) completed on: 1351
+INFO 2022-06-20 16:44:04,309 judge_handler oi_judge00: Batch ended on: 1351
+INFO 2022-06-20 16:44:04,310 judge_handler oi_judge00: Grading has ended on: 1351
+INFO 2022-06-20 16:44:04,310 judge_list Judge available after grading 1351: oi_judge00
+INFO 2022-06-20 19:47:17,483 judge_handler Judge connected from: ('24.179.165.253', 32972)
+INFO 2022-06-20 19:47:17,499 judge_handler Judge disconnected from: ('24.179.165.253', 32972) with name None
+INFO 2022-06-20 20:26:31,417 judge_handler Judge connected from: ('185.7.214.104', 45390)
+INFO 2022-06-20 20:26:31,418 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('185.7.214.104', 45390)
+INFO 2022-06-20 20:26:31,418 judge_handler Judge disconnected from: ('185.7.214.104', 45390) with name None
