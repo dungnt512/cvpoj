@@ -10918,3 +10918,46 @@ INFO 2022-06-25 17:43:34,389 judge_handler Judge disconnected from: ('104.152.52
 INFO 2022-06-25 23:49:44,269 judge_handler Judge connected from: ('91.191.209.206', 63779)
 INFO 2022-06-25 23:49:44,269 base_handler Disconnecting client due to too-large message size (50331695 bytes): ('91.191.209.206', 63779)
 INFO 2022-06-25 23:49:44,270 judge_handler Judge disconnected from: ('91.191.209.206', 63779) with name None
+INFO 2022-06-26 06:29:05,817 judge_handler Judge connected from: ('185.7.214.104', 58634)
+INFO 2022-06-26 06:29:05,818 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('185.7.214.104', 58634)
+INFO 2022-06-26 06:29:05,818 judge_handler Judge disconnected from: ('185.7.214.104', 58634) with name None
+INFO 2022-06-26 08:37:27,413 judge_handler Judge connected from: ('172.105.224.72', 33416)
+INFO 2022-06-26 08:37:27,414 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('172.105.224.72', 33416)
+INFO 2022-06-26 08:37:27,414 judge_handler Judge disconnected from: ('172.105.224.72', 33416) with name None
+INFO 2022-06-26 08:53:05,215 judge_handler Judge connected from: ('178.128.206.36', 61953)
+INFO 2022-06-26 08:53:07,221 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('178.128.206.36', 61953)
+INFO 2022-06-26 08:53:07,221 judge_handler Judge disconnected from: ('178.128.206.36', 61953) with name None
+INFO 2022-06-26 11:56:38,336 judge_handler Judge connected from: ('162.142.125.9', 40710)
+ERROR 2022-06-26 11:56:39,339 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-06-26 11:56:39,355 judge_handler Judge connected from: ('162.142.125.9', 33770)
+INFO 2022-06-26 11:56:39,355 base_handler Disconnecting client due to too-large message size (369295616 bytes): ('162.142.125.9', 33770)
+INFO 2022-06-26 11:56:39,356 judge_handler Judge disconnected from: ('162.142.125.9', 33770) with name None
+INFO 2022-06-26 11:56:39,390 judge_handler Judge connected from: ('162.142.125.9', 34426)
+INFO 2022-06-26 11:56:40,388 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('162.142.125.9', 34426)
+INFO 2022-06-26 11:56:40,389 judge_handler Judge disconnected from: ('162.142.125.9', 34426) with name None
+INFO 2022-06-26 11:56:40,419 judge_handler Judge connected from: ('162.142.125.9', 56264)
+ERROR 2022-06-26 11:56:40,419 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-06-26 11:56:40,914 judge_handler Judge disconnected from: ('162.142.125.9', 40710) with name None
+INFO 2022-06-26 11:56:41,588 judge_handler Judge disconnected from: ('162.142.125.9', 56264) with name None
+INFO 2022-06-26 12:53:42,033 judge_handler Judge connected from: ('192.241.222.204', 40138)
+INFO 2022-06-26 12:53:42,060 base_handler Disconnecting client due to too-large message size (1296518222 bytes): ('192.241.222.204', 40138)
+INFO 2022-06-26 12:53:42,060 judge_handler Judge disconnected from: ('192.241.222.204', 40138) with name None
+INFO 2022-06-26 13:53:52,184 judge_handler Judge connected from: ('80.66.75.39', 64852)
+INFO 2022-06-26 13:53:54,189 base_handler Disconnecting client due to too-large message size (16901642 bytes): ('80.66.75.39', 64852)
+INFO 2022-06-26 13:53:54,190 judge_handler Judge disconnected from: ('80.66.75.39', 64852) with name None
