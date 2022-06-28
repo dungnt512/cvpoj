@@ -10961,3 +10961,68 @@ INFO 2022-06-26 12:53:42,060 judge_handler Judge disconnected from: ('192.241.22
 INFO 2022-06-26 13:53:52,184 judge_handler Judge connected from: ('80.66.75.39', 64852)
 INFO 2022-06-26 13:53:54,189 base_handler Disconnecting client due to too-large message size (16901642 bytes): ('80.66.75.39', 64852)
 INFO 2022-06-26 13:53:54,190 judge_handler Judge disconnected from: ('80.66.75.39', 64852) with name None
+INFO 2022-06-27 04:01:36,157 judge_handler Judge connected from: ('185.7.214.104', 47464)
+INFO 2022-06-27 04:01:36,158 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('185.7.214.104', 47464)
+INFO 2022-06-27 04:01:36,158 judge_handler Judge disconnected from: ('185.7.214.104', 47464) with name None
+INFO 2022-06-27 09:05:01,885 judge_handler Judge connected from: ('162.142.125.8', 46942)
+ERROR 2022-06-27 09:05:02,885 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-06-27 09:05:02,901 judge_handler Judge connected from: ('162.142.125.8', 39108)
+INFO 2022-06-27 09:05:02,902 base_handler Disconnecting client due to too-large message size (369295616 bytes): ('162.142.125.8', 39108)
+INFO 2022-06-27 09:05:02,902 judge_handler Judge disconnected from: ('162.142.125.8', 39108) with name None
+INFO 2022-06-27 09:05:02,935 judge_handler Judge connected from: ('162.142.125.8', 39694)
+INFO 2022-06-27 09:05:03,925 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('162.142.125.8', 39694)
+INFO 2022-06-27 09:05:03,926 judge_handler Judge disconnected from: ('162.142.125.8', 39694) with name None
+INFO 2022-06-27 09:05:03,956 judge_handler Judge connected from: ('162.142.125.8', 32998)
+ERROR 2022-06-27 09:05:03,957 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-06-27 09:05:04,073 judge_handler Judge disconnected from: ('162.142.125.8', 46942) with name None
+INFO 2022-06-27 09:05:04,625 judge_handler Judge disconnected from: ('162.142.125.8', 32998) with name None
+INFO 2022-06-27 14:25:13,031 judge_handler Judge connected from: ('222.175.199.226', 32789)
+INFO 2022-06-27 14:25:15,015 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('222.175.199.226', 32789)
+INFO 2022-06-27 14:25:15,016 judge_handler Judge disconnected from: ('222.175.199.226', 32789) with name None
+INFO 2022-06-27 21:54:46,754 judge_handler Judge connected from: ('183.136.225.42', 44958)
+INFO 2022-06-27 21:55:01,769 base_handler Potentially wrong protocol: ('183.136.225.42', 44958): None
+INFO 2022-06-27 21:55:01,770 judge_handler Judge disconnected from: ('183.136.225.42', 44958) with name None
+INFO 2022-06-27 23:05:28,770 judge_handler Judge connected from: ('162.142.125.7', 59744)
+ERROR 2022-06-27 23:05:29,770 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-06-27 23:05:29,790 judge_handler Judge connected from: ('162.142.125.7', 37238)
+INFO 2022-06-27 23:05:29,790 base_handler Disconnecting client due to too-large message size (369295616 bytes): ('162.142.125.7', 37238)
+INFO 2022-06-27 23:05:29,790 judge_handler Judge disconnected from: ('162.142.125.7', 37238) with name None
+INFO 2022-06-27 23:05:29,827 judge_handler Judge connected from: ('162.142.125.7', 38854)
+INFO 2022-06-27 23:05:30,827 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('162.142.125.7', 38854)
+INFO 2022-06-27 23:05:30,827 judge_handler Judge disconnected from: ('162.142.125.7', 38854) with name None
+INFO 2022-06-27 23:05:30,842 judge_handler Judge disconnected from: ('162.142.125.7', 59744) with name None
+INFO 2022-06-27 23:05:30,857 judge_handler Judge connected from: ('162.142.125.7', 45416)
+ERROR 2022-06-27 23:05:30,858 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-06-27 23:05:31,461 judge_handler Judge disconnected from: ('162.142.125.7', 45416) with name None
