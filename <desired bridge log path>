@@ -11375,3 +11375,45 @@ INFO 2022-06-30 23:32:24,784 judge_handler Judge disconnected from: ('103.203.57
 INFO 2022-06-30 23:32:24,836 judge_handler Judge connected from: ('103.203.57.24', 50340)
 INFO 2022-06-30 23:32:24,837 base_handler Disconnecting client due to too-large message size (84017154 bytes): ('103.203.57.24', 50340)
 INFO 2022-06-30 23:32:24,837 judge_handler Judge disconnected from: ('103.203.57.24', 50340) with name None
+INFO 2022-07-01 08:56:35,820 judge_handler Judge connected from: ('172.105.224.72', 40650)
+INFO 2022-07-01 08:56:35,821 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('172.105.224.72', 40650)
+INFO 2022-07-01 08:56:35,821 judge_handler Judge disconnected from: ('172.105.224.72', 40650) with name None
+INFO 2022-07-01 09:32:49,891 judge_handler Judge connected from: ('162.142.125.8', 32908)
+ERROR 2022-07-01 09:32:50,891 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-07-01 09:32:50,904 judge_handler Judge connected from: ('162.142.125.8', 55488)
+INFO 2022-07-01 09:32:50,905 base_handler Disconnecting client due to too-large message size (369295616 bytes): ('162.142.125.8', 55488)
+INFO 2022-07-01 09:32:50,905 judge_handler Judge disconnected from: ('162.142.125.8', 55488) with name None
+INFO 2022-07-01 09:32:50,932 judge_handler Judge connected from: ('162.142.125.8', 56510)
+INFO 2022-07-01 09:32:51,932 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('162.142.125.8', 56510)
+INFO 2022-07-01 09:32:51,933 judge_handler Judge disconnected from: ('162.142.125.8', 56510) with name None
+INFO 2022-07-01 09:32:51,955 judge_handler Judge connected from: ('162.142.125.8', 51772)
+ERROR 2022-07-01 09:32:51,956 base_handler Error in base packet handling
+Traceback (most recent call last):
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 44, in __call__
+    handler.handle()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 146, in handle
+    tag = self.read_size()
+  File "/home/pvviet001/site/judge/bridge/base_handler.py", line 110, in read_size
+    recv = self.request.recv(size_pack.size - len(buffer))
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO 2022-07-01 09:32:52,428 judge_handler Judge disconnected from: ('162.142.125.8', 32908) with name None
+INFO 2022-07-01 09:32:52,973 judge_handler Judge disconnected from: ('162.142.125.8', 51772) with name None
+INFO 2022-07-01 14:51:38,604 judge_handler Judge connected from: ('192.241.216.32', 55984)
+INFO 2022-07-01 14:51:48,564 judge_handler Judge disconnected from: ('192.241.216.32', 55984) with name None
+INFO 2022-07-01 18:30:41,335 judge_handler Judge connected from: ('92.255.85.183', 61730)
+INFO 2022-07-01 18:30:56,385 base_handler Potentially wrong protocol: ('92.255.85.183', 61730): None
+INFO 2022-07-01 18:30:56,385 judge_handler Judge disconnected from: ('92.255.85.183', 61730) with name None
+INFO 2022-07-01 18:33:56,437 judge_handler Judge connected from: ('185.7.214.104', 58796)
+INFO 2022-07-01 18:33:59,161 base_handler Disconnecting client due to too-large message size (1195725856 bytes): ('185.7.214.104', 58796)
+INFO 2022-07-01 18:33:59,161 judge_handler Judge disconnected from: ('185.7.214.104', 58796) with name None
+INFO 2022-07-01 22:25:40,448 judge_handler Judge connected from: ('192.241.214.123', 42832)
+INFO 2022-07-01 22:25:40,449 base_handler Disconnecting client due to too-large message size (1296518222 bytes): ('192.241.214.123', 42832)
+INFO 2022-07-01 22:25:40,450 judge_handler Judge disconnected from: ('192.241.214.123', 42832) with name None
